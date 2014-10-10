@@ -1,0 +1,205 @@
+/*!
+ *AMPD 
+ */
+
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+    color:white;
+}
+.subtext{
+    font-family: 'Droid Serif', serif;
+    font-weight: 400;
+    font-size: 15px;
+    color:#999;
+    
+}
+#sideBar{
+    margin-top: 30px;
+    position:absolute;
+     width: 8px;
+    height:93px;
+    background: url("http://i.imgur.com/HNdbMzl.jpg") no-repeat ;
+    background-size: 8px 93px;
+}
+
+#logout{
+    right:0;
+    position:absolute;
+    font-family: 'Roboto', sans-serif;   
+ font-weight: 300;
+ font-size:20px;
+ color:#fff;  
+    margin-right: 10px;
+    height:100px;
+    margin-top:-40px;
+    
+}
+
+.full {
+    
+    background-image:url("http://i.imgur.com/GOp7A1D.jpg");
+    background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.program {
+    
+    background-image:url("http://i.imgur.com/L3qOD3I.jpg");
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.va {
+    
+    background-image:url("http://i.imgur.com/4voNN7i.jpg");
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+ font-family: 'Roboto', sans-serif;   
+ font-weight: 100;
+ font-size:100px;
+ color:#fff;
+}
+h2{
+ font-family: 'Roboto', sans-serif;   
+ font-weight: 100;
+ font-size:70px;
+ color:#fff;   
+}
+h3{
+ font-family: 'Roboto', sans-serif;   
+ font-weight: 100;
+ font-size:40px;
+ color:#fff;   
+}
+
+#overLine{
+    background:url("http://i.imgur.com/QxNoGHd.png") no-repeat;
+    background-size: 20% 15px;
+    padding-top:5px;
+    height:70px;
+    font-family: 'Roboto', sans-serif;   
+    font-weight: 100;
+    font-size:40px;
+    color:white;
+    margin-left:-15px;
+}
+
+a:link {
+    text-decoration: none;
+    color:white;
+}
+
+a:visited {
+    text-decoration: none;
+    color:white;
+}
+
+a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+a:active {
+    text-decoration: none;
+    color:white;
+}
+
+
+
+
+#vertAlign {
+    
+    margin-top:-10px;
+}
+
+
+
+.fa-angle-right {
+    color:#ce301b;
+}
+
+a#signin {
+    text-decoration: none;
+    color: black;
+}
+a#nextButton {
+    text-decoration: none;
+    color: black;
+}
+a#prevButton {
+    text-decoration: none;
+    color: black;
+}
+
+.bigYear {
+    font-family: 'Montserrat', sans-serif;
+   
+    font-weight: 700;
+    font-size: 170px;
+    position:fixed;
+     bottom:-75px;
+     right:-10px;
+   
+
+}
+#theatreBtn{
+    width: 141px;
+    height:141px;
+    background:url("http://i.imgur.com/7ybgWnc.png") no-repeat;
+    background-size: 141px 141px;
+}
+#musicBtn{
+    width: 141px;
+    height:141px;
+    background:url("http://i.imgur.com/JA3x1HC.png") no-repeat;
+    background-size: 141px 141px;
+}
+#visualBtn{
+    width: 141px;
+    height:141px;
+    background:url("http://i.imgur.com/8lLkzqJ.png") no-repeat;
+    background-size: 141px 141px;
+}
+
+.previous {
+    float:left;
+}
+.greyText{
+ color:#999;   
+}
+
+.next {
+    float:right;
+}
+
+#sideCircle {
+    position:absolute;
+}
+
+.subtext1 {
+  font-family: 'Roboto', sans-serif;   
+ font-weight: 300;
+ font-size:15px;
+ color:#fff;   
+}
+.questions {
+  font-family: 'Droid Serif', serif; 
+ font-weight: 400;
+ font-size:15px;
+ color:#fff;   
+}
+
+
