@@ -81,8 +81,8 @@ h2{
 h3{
  font-family: 'Roboto', sans-serif;   
  font-weight: 100;
- font-size:40px;
- color:#fff;   
+ font-size:30px;
+ color:#999;   
 }
 
 #overLine{
@@ -130,23 +130,40 @@ a:active {
 .fa-angle-right {
     color:#ce301b;
 }
-
+.fa-angle-left {
+    color:#ce301b;
+}
+.fa-caret-right {
+    color:#ce301b;
+}
+.fa-power-off {
+    color:#ce301b;
+}
 a#signin {
-    text-decoration: none;
-    color: black;
+     text-decoration: none;
+     font-family: 'Roboto', sans-serif;   
+ font-weight: 100;
+ font-size:30px;
+ color:#999; 
 }
 a#nextButton {
     text-decoration: none;
-    color: black;
+     font-family: 'Roboto', sans-serif;   
+ font-weight: 100;
+ font-size:30px;
+ color:#999; 
+ float:right;
 }
 a#prevButton {
     text-decoration: none;
-    color: black;
+     font-family: 'Roboto', sans-serif;   
+ font-weight: 100;
+ font-size:30px;
+ color:#999; 
 }
 
 .bigYear {
     font-family: 'Montserrat', sans-serif;
-   
     font-weight: 700;
     font-size: 170px;
     position:fixed;
@@ -174,16 +191,11 @@ a#prevButton {
     background-size: 141px 141px;
 }
 
-.previous {
-    float:left;
-}
 .greyText{
  color:#999;   
 }
 
-.next {
-    float:right;
-}
+
 
 #sideCircle {
     position:absolute;
@@ -202,4 +214,40 @@ a#prevButton {
  color:#fff;   
 }
 
-
+.programname{
+	float:left;
+	margin-left:-80px;
+	margin-top:35px;
+}
+ul {
+	list-style:none;
+	display:inline;
+}
+li{
+	display:inline;
+}
+.savebutton{
+	border:none;
+	background:none;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;   
+	font-weight: 100;
+	font-size:30px;
+	color:#999; 
+}
+.upload{
+	border:none;
+	background:none;
+	text-decoration:none;
+	font-family: 'Roboto', sans-serif;   
+	font-weight: 100;
+	font-size:100px;
+	color:white;
+}
+#portfolio{
+	font-family: 'Roboto', sans-serif;   
+ font-weight: 100;
+ font-size:30px;
+ color:white;  
+}
+	
