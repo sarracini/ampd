@@ -18,7 +18,7 @@ body {
 #sideBar{
     margin-top: 30px;
     position:absolute;
-     width: 8px;
+    width: 8px;
     height:93px;
     background: url("http://i.imgur.com/HNdbMzl.jpg") no-repeat ;
     background-size: 8px 93px;
@@ -28,9 +28,9 @@ body {
     right:0;
     position:absolute;
     font-family: 'Roboto', sans-serif;   
- font-weight: 300;
- font-size:20px;
- color:#fff;  
+    font-weight: 300;
+    font-size:20px;
+    color:#fff;  
     margin-right: 10px;
     height:100px;
     margin-top:-40px;
@@ -38,51 +38,46 @@ body {
 }
 
 .full {
-    
     background-image:url("http://i.imgur.com/GOp7A1D.jpg");
     background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .program {
-    
     background-image:url("http://i.imgur.com/L3qOD3I.jpg");
-  
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .va {
-    
     background-image:url("http://i.imgur.com/4voNN7i.jpg");
-  
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 h1 {
- font-family: 'Roboto', sans-serif;   
- font-weight: 100;
- font-size:100px;
- color:#fff;
+    font-family: 'Roboto', sans-serif;   
+    font-weight: 100;
+    font-size:100px;
+    color:#fff;
 }
 h2{
- font-family: 'Roboto', sans-serif;   
- font-weight: 100;
- font-size:70px;
- color:#fff;   
+    font-family: 'Roboto', sans-serif;   
+    font-weight: 100;
+    font-size:70px;
+    color:#fff;   
 }
 h3{
- font-family: 'Roboto', sans-serif;   
- font-weight: 100;
- font-size:30px;
- color:#999;   
+    font-family: 'Roboto', sans-serif;   
+    font-weight: 100;
+    font-size:30px;
+    color:#999;   
 }
 
 #overLine{
@@ -117,15 +112,9 @@ a:active {
     color:white;
 }
 
-
-
-
 #vertAlign {
-    
     margin-top:-10px;
 }
-
-
 
 .fa-angle-right {
     color:#ce301b;
@@ -139,39 +128,32 @@ a:active {
 .fa-power-off {
     color:#ce301b;
 }
+.fa-upload {
+    color:#ce301b;
+}
 a#signin {
-     text-decoration: none;
-     font-family: 'Roboto', sans-serif;   
- font-weight: 100;
- font-size:30px;
- color:#999; 
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;   
+    font-weight: 100;
+    font-size:30px;
+    color:#999; 
 }
 a#nextButton {
     text-decoration: none;
-     font-family: 'Roboto', sans-serif;   
- font-weight: 100;
- font-size:30px;
- color:#999; 
- float:right;
+    font-family: 'Roboto', sans-serif;   
+    font-weight: 100;
+    font-size:30px;
+    color:#999; 
+    float:right;
 }
 a#prevButton {
     text-decoration: none;
-     font-family: 'Roboto', sans-serif;   
- font-weight: 100;
- font-size:30px;
- color:#999; 
+    font-family: 'Roboto', sans-serif;   
+    font-weight: 100;
+    font-size:30px;
+    color:#999; 
 }
 
-.bigYear {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 170px;
-    position:fixed;
-     bottom:-75px;
-     right:-10px;
-   
-
-}
 #theatreBtn{
     width: 141px;
     height:141px;
@@ -195,8 +177,6 @@ a#prevButton {
  color:#999;   
 }
 
-
-
 #sideCircle {
     position:absolute;
 }
@@ -214,11 +194,6 @@ a#prevButton {
  color:#fff;   
 }
 
-.programname{
-	float:left;
-	margin-left:-80px;
-	margin-top:35px;
-}
 ul {
 	list-style:none;
 	display:inline;
@@ -241,13 +216,50 @@ li{
 	text-decoration:none;
 	font-family: 'Roboto', sans-serif;   
 	font-weight: 100;
-	font-size:100px;
-	color:white;
+	font-size:20px;
+	color:#999;
+}
+#uploadButton{
+	border:none;
+	background:none;
+	text-decoration:none;
+	font-family: 'Roboto', sans-serif;   
+	font-weight: 100;
+	font-size:20px;
+	color:#999;
+    visibility:hidden;
 }
 #portfolio{
-	font-family: 'Roboto', sans-serif;   
- font-weight: 100;
- font-size:30px;
- color:white;  
+    font-family: 'Roboto', sans-serif;   
+    font-weight: 100;
+    font-size:30px;
+    color:white;  
 }
-	
+#fileName{
+    font-family: 'Roboto', sans-serif;   
+    font-weight: 100;
+    font-size:30px;
+    color:white;  
+}
+.suppHeading{
+    float:left;
+    font-family: 'Roboto', sans-serif;   
+    font-weight: 100;
+    font-size:100px;
+    color:#fff;
+    line-height:110%;
+}
+
+.programName{
+    float:right;
+    font-family: 'Roboto', sans-serif;   
+    font-weight: 100;
+    font-size:35px;
+    color:#999;  
+    margin-right:80px;
+    line-height:110%;
+    margin-top:25px;
+}
+#progressBar{
+    visibility:hidden;
+}

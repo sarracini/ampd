@@ -16,7 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/ampdStyle.css" rel="stylesheet">
-    
+   
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
@@ -33,40 +33,67 @@
 
 <body>
 
-        </div>
-        <!-- /.container -->
-    </nav>
-
     <!-- Page Content -->
     <a href="index.html"><div id="logout">Logout <i class="fa fa-power-off"></i></div></a>
     <div id="sideBar"></div>
     <div class="container">
-        <div class="row">
-            <div class="col-md-5 col-sm-12">
-                <h1>Portfolio</h1>     
+     
+    <!--Headings-->    
+        <div class="col-md-12 col-sm-12">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <div class="suppHeading">
+                        Supplementary Evaluation 
+                        <div class = "programName">
+                           VISUAL <br/> ARTS
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-md-offset-1">
+                    <div id="preview">
+                        This area is desginated to the preview. It will only appear when the upload is complete.<br/>
+                        It will have a preview of the media they've uploaded. They can now press next in order to move on
+                    </div>
+                </div>
             </div>
+        </div>
+    <!--/Headings-->
         
-        <div class="col-md-1 col-sm-12">
-                 <div class = "programname">
-                	<h3> VISUAL <br/> ARTS</h3>
-               </div>
-            </div>
-            </div>
          <div class="row">
             <div class="col-md-12 col-sm-12">
                 <h3 id ="portfolio">Please upload an image of your piece</h3>     
             </div>
-             </div>
+        </div>
              <div class="row">
-             <center>
-             <div class="col-md-10 col-sm-12 ">
-                 <br/><br/>
-                 <button class ="upload" type="button">Upload <i class="fa fa-upload"></i></span>
+             
+             <div class="col-md-4 col-sm-12 ">
+                 <br/>
+                
+                 <input class ="filestyle" type="file" data-buttonBefore="true" onclick="toggleVis(document.getElementById('uploadButton'))"><br/>
+               
+                 
+                 
+                 <button id="uploadButton" onclick="toggleVis(document.getElementById('progressBar'))">
+                    Upload <i class="fa fa-upload"></i>
+
                  </button>
                  </div>
-                 </center>
+                 
              </div>
-      
+        <br/>
+      <div  id="progressBar" class="row">
+          <div class="col-md-4 col-sm-12">
+              
+          
+              
+              
+          <div class="progress">
+  <div class="progress-bar progress-bar-danger active"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+    <span class="sr-only">45% Complete</span>
+  </div>
+</div>
+              </div>
+        </div>
 
     <!--Save/Next/Prev-->
     <br/>  <br/>  <br/>
@@ -90,6 +117,7 @@
         <!--End of Save/Next/Prev-->
         <!-- /.row -->
     </div>
+    
     <!-- /.container -->
 
     <!-- jQuery Version 1.11.0 -->
@@ -97,6 +125,22 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    
+     <!--File Chooser-->
+    <script type="text/javascript" src="js/bootstrap-filestyle.js"> </script>
+ 
+<script>
+    var toggleVis= function(element){
+        if(element.style.visibility='hidden'){
+            element.style.visibility='visible';
+        }
+      
+    };
+        
+
+    
+ $(":file").filestyle({buttonBefore: true});
+</script>
 
 </body>
 
