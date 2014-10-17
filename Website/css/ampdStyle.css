@@ -3,42 +3,37 @@
  */
 
 body {
-	margin-top: 50px;
-	margin-bottom: 50px;
-	background: none;
-    color:white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: none;
 }
-.subtext{
+.subtext {
     font-family: 'Droid Serif', serif;
     font-weight: 400;
     font-size: 20px;
-    color:#999;
-    
+    color: #999;
 }
-#sideBar{
+#sideBar {
     margin-top: 10px;
-    position:absolute;
+    position: absolute;
     width: 8px;
-    height:93px;
-    background: url("http://i.imgur.com/HNdbMzl.jpg") no-repeat ;
+    height: 93px;
+    background: url("http://i.imgur.com/HNdbMzl.jpg") no-repeat;
     background-size: 8px 93px;
 }
-
-#logout{
-    right:0;
-    position:absolute;
-    font-family: 'Roboto', sans-serif;   
+#logout {
+    right: 0;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size:17px;
-    color:#999;  
+    font-size: 17px;
+    color: #999;
     margin-right: 20px;
-    height:100px;
-    margin-top:-40px;
-    
+    height: 100px;
+    margin-top: -40px;
 }
-
 .full {
-    background-image:url("http://i.imgur.com/GOp7A1D.jpg");
+    background-image: url("http://i.imgur.com/GOp7A1D.jpg");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -46,227 +41,219 @@ body {
     background-size: cover;
 }
 .program {
-    background-image:url("http://i.imgur.com/L3qOD3I.jpg");
+    background-image: url("http://i.imgur.com/L3qOD3I.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
 .va {
-    background-image:url("http://i.imgur.com/4voNN7i.jpg");
+    background-image: url("http://i.imgur.com/4voNN7i.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
 h1 {
-    font-family: 'Roboto', sans-serif;   
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size:100px;
-    color:#fff;
+    font-size: 100px;
+    color: #fff;
 }
-h2{
-    font-family: 'Roboto', sans-serif;   
+h2 {
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size:70px;
-    color:#fff;   
+    font-size: 70px;
+    color: #fff;
 }
-h3{
-    font-family: 'Roboto', sans-serif;   
+h3 {
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size:30px;
-    color:#999;   
+    font-size: 30px;
+    color: #999;
 }
-
-#overLine{
-    background:url("http://i.imgur.com/QxNoGHd.png") no-repeat;
+#overLine {
+    background: url("http://i.imgur.com/QxNoGHd.png") no-repeat;
     background-size: 20% 15px;
-    padding-top:5px;
-    height:70px;
-    font-family: 'Roboto', sans-serif;   
+    padding-top: 5px;
+    height: 70px;
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size:40px;
-    color:white;
-    margin-left:-15px;
+    font-size: 40px;
+    color: white;
+    margin-left: -15px;
 }
-
 a:link {
     text-decoration: none;
-    color:white;
+    color: white;
 }
-
 a:visited {
     text-decoration: none;
-    color:white;
+    color: white;
 }
-
 a:hover {
     text-decoration: none;
-    color:white;
+    color: white;
 }
-
 a:active {
     text-decoration: none;
-    color:white;
+    color: white;
 }
-
 #vertAlign {
-    margin-top:-10px;
+    margin-top: -10px;
 }
-
 .fa-angle-right {
-    color:#ce301b;
+    color: #ce301b;
 }
 .fa-angle-left {
-    color:#ce301b;
+    color: #ce301b;
 }
 .fa-caret-right {
-    color:#ce301b;
+    color: #ce301b;
 }
 .fa-power-off {
-    color:#ce301b;
+    color: #ce301b;
 }
 .fa-question-circle {
-    color:#ce301b;
+    color: #ce301b;
 }
 .fa-upload {
-    color:#ce301b;
+    color: #ce301b;
 }
 .fa-home {
-    color:#ce301b;
+    color: #ce301b;
 }
 a#signin {
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;   
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size:30px;
-    color:#999; 
+    font-size: 30px;
+    color: #999;
 }
 a#nextButton {
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;   
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size:30px;
-    color:#999; 
-    float:right;
+    font-size: 30px;
+    color: #999;
+    float: right;
 }
 a#prevButton {
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;   
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size:30px;
-    color:#999; 
+    font-size: 30px;
+    color: #999;
 }
-
-#theatreBtn{
+#theatreBtn {
     width: 141px;
-    height:141px;
-    background:url("http://i.imgur.com/7ybgWnc.png") no-repeat;
+    height: 141px;
+    background: url("http://i.imgur.com/7ybgWnc.png") no-repeat;
     background-size: 141px 141px;
 }
-#musicBtn{
+#musicBtn {
     width: 141px;
-    height:141px;
-    background:url("http://i.imgur.com/JA3x1HC.png") no-repeat;
+    height: 141px;
+    background: url("http://i.imgur.com/JA3x1HC.png") no-repeat;
     background-size: 141px 141px;
 }
-#visualBtn{
+#visualBtn {
     width: 141px;
-    height:141px;
-    background:url("http://i.imgur.com/8lLkzqJ.png") no-repeat;
+    height: 141px;
+    background: url("http://i.imgur.com/8lLkzqJ.png") no-repeat;
     background-size: 141px 141px;
 }
-
-.greyText{
- color:#999;   
+.greyText {
+    color: #999;
 }
-
 #sideCircle {
-    position:absolute;
+    position: absolute;
 }
-
 .subtext1 {
-  font-family: 'Roboto', sans-serif;   
- font-weight: 300;
- font-size:15px;
- color:#fff;   
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
 }
 .questions {
-  font-family: 'Droid Serif', serif; 
- font-weight: 400;
- font-size:15px;
- color:#fff;   
+    font-family: 'Droid Serif', serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
 }
-
 ul {
-	list-style:none;
-	display:inline;
+    list-style: none;
+    display: inline;
 }
-li{
-	display:inline;
+li {
+    display: inline;
 }
-.savebutton{
-	border:none;
-	background:none;
-	text-decoration: none;
-	font-family: 'Roboto', sans-serif;   
-	font-weight: 100;
-	font-size:30px;
-	color:#999; 
-}
-.upload{
-	border:none;
-	background:none;
-	text-decoration:none;
-	font-family: 'Roboto', sans-serif;   
-	font-weight: 100;
-	font-size:20px;
-	color:#999;
-}
-#uploadButton{
-	border:none;
-	background:none;
-	text-decoration:none;
-	font-family: 'Roboto', sans-serif;   
-	font-weight: 100;
-	font-size:20px;
-	color:#999;
-    visibility:hidden;
-}
-#portfolio{
-    font-family: 'Roboto', sans-serif;   
+.savebutton {
+    border: none;
+    background: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size:30px;
-    color:white;  
+    font-size: 30px;
+    color: #999;
 }
-#fileName{
-    font-family: 'Roboto', sans-serif;   
+.upload {
+    border: none;
+    background: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size:30px;
-    color:white;  
+    font-size: 20px;
+    color: #999;
 }
-.suppHeading{
-    float:left;
-    font-family: 'Roboto', sans-serif;   
+#uploadButton {
+    border: none;
+    background: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size:80px;
-    color:#fff;
-    line-height:110%;
+    font-size: 20px;
+    color: #999;
+    visibility: hidden;
 }
-
-.programName{
-    float:right;
-    font-family: 'Roboto', sans-serif;   
+#portfolio {
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size:25px;
-    color:#999;  
-    margin-right:180px;
-    line-height:110%;
-    margin-top:25px;
+    font-size: 30px;
+    color: white;
 }
-#progressBar{
-    visibility:hidden;
+#fileName {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    color: white;
 }
-
+.suppHeading {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 80px;
+    color: #fff;
+    line-height: 110%;
+}
+.programName {
+    display: inline-block;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    color: #999;
+    margin-right: 0px;
+    line-height: 110%;
+    margin-top: 25px;
+}
+#progressBar {
+    visibility: hidden;
+}
+#preview {
+    color: white;
+    position: absolute;
+    width: 90%;
+    height: 70%;
+    z-index: -1;
+}

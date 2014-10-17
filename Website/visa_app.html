@@ -16,12 +16,12 @@
 
     <!-- Custom CSS -->
     <link href="css/ampdStyle.css" rel="stylesheet">
-    
+
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -36,90 +36,141 @@
 
     <!-- Page Content -->
     <div class="col-md-12 col-md-offset-9 col-sm-12">
-           <div class="col-md-1 col-sm-12">
-            <a href="program.html"><div id="logout">Home <i class="fa fa-home"></i></div></a></div>
-          <div class="col-md-1 col-sm-12">
-            <a href="index.html"><div id="logout">Help <i class="fa fa-question-circle"></i></div></a></div>
+        <div class="col-md-1 col-sm-12">
+            <a href="program.html">
+                <div id="logout">Home <i class="fa fa-home"></i>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-1 col-sm-12">
+            <a data-toggle="modal" data-target="#myModal">
+                <div id="logout">Help <i class="fa fa-question-circle"></i>
+                </div>
+            </a>
+        </div>
         <div class="col-md-1  col-sm-12">
-            <a href="index.html"><div id="logout">Logout <i class="fa fa-power-off"></i></div></a></div>
+            <a href="index.html">
+                <div id="logout">Logout <i class="fa fa-power-off"></i>
+                </div>
+            </a>
+        </div>
     </div>
+
+    <!--Popup-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">AMPD Evaluation Tips</h4>
+                </div>
+                <div class="modal-body">
+                    <h3>How To</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed magna nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sit amet tortor in est lobortis congue a in quam.</p>
+                    <hr>
+                    <h4>Heading 1</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed magna nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sit amet tortor in est lobortis congue a in quam. Praesent bibendum, odio non hendrerit fringilla, tortor arcu iaculis massa, sed tempor dolor urna lacinia leo. Curabitur neque lorem, imperdiet sed turpis vel, finibus porta quam. Vestibulum aliquam et massa sit amet elementum.</p>
+                    <h4>Heading 1</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed magna nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sit amet tortor in est lobortis congue a in quam. Praesent bibendum, odio non hendrerit fringilla, tortor arcu iaculis massa, sed tempor dolor urna lacinia leo. Curabitur neque lorem, imperdiet sed turpis vel, finibus porta quam. Vestibulum aliquam et massa sit amet elementum.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Popup-->
+
     <div id="sideBar"></div>
     <div class="container">
-    <div class="col-md-12 col-sm-12">
+        <div class="col-md-12 col-sm-12">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <div class="suppHeading">
+                        Supplementary Evaluation
+                        <div class="programName">
+                            VISUAL
+                            <br/>ARTS
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+        <!--Questions-->
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <p class="questions">Are you currently attending high school?
+                    <br/>
+                </p>
+                <div class="col-md-2 col-sm-12">
+                    <select name="visa013" value="vvisa013" class="form-control">
+                        <option>Yes</option>>
+                        <option>No</option>
+                    </select>
+                    <br/>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <p class="questions">If yes, please indicate name of high school:
+                    <br/>
+                </p>
+                <div class="col-md-7 col-sm-12">
+                    <textarea style="resize:none" name="visa014" value="vvisa014" class="form-control" rows="1"></textarea>
+                    <br/>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <p class="questions">High school address:
+                    <br/>
+                </p>
+                <div class="col-md-7 col-sm-12">
+                    <textarea style="resize:none" name="visa015" value="vvisa015" class="form-control" rows="1"></textarea>
+                    <br/>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <p class="questions">Is this an Ontario High School?
+                    <br/>
+                </p>
+                <div class="col-md-2 col-sm-12">
+                    <select name="visa016" value="vvisa016" class="form-control">
+                        <option>Yes</option>>
+                        <option>No</option>
+                    </select>
+                    <br/>
+                </div>
+            </div>
+        </div>
+        <!--End of questions-->
+        <!--Save/Next/Prev-->
         <div class="row">
             <div class="col-md-7 col-sm-12">
-                <div class="suppHeading">
-                     Supplementary Evaluation 
-                       <div class = "programName">
-                	 VISUAL <br/> ARTS
-               </div>
+
+
+                <center>
+                    <div class="col-md-2 col-md-offset-5 col-sm-12">
+                        <button type="button" class="savebutton">Save</button>
+                    </div>
+                </center>
+                <div class="col-md-3 col-md-offset-2 col-sm-12">
+                    <a id="nextButton" href="visa_app2.html">Next <i class="fa fa-angle-right"></i>
+</a>
                 </div>
-          
+
             </div>
-          
-        
-        </div>
-        </div>
-    <!--Questions-->    
-    <div class="row">
-        <div class="col-md-12 col-sm-12">
-             <p class="questions">Are you currently attending high school?<br/></p>
-             <div class="col-md-2 col-sm-12">
-                 <select name="visa013" value="vvisa013" class="form-control">
-                     <option>Yes</option>>
-                     <option>No</option>
-                     </select><br/>
-            </div>
-           
-        </div>   
-    </div>
-          <div class="row">
-        <div class="col-md-12 col-sm-12">
-            <p class="questions">If yes, please indicate name of high school:<br/></p>
-               <div class="col-md-7 col-sm-12">
-                    <textarea style="resize:none" name="visa014" value="vvisa014" class="form-control" rows="1"></textarea><br/>
-               </div>     
-        </div>   
-    </div>
-          <div class="row">
-        <div class="col-md-12 col-sm-12">
-            <p class="questions">High school address:<br/></p>
-               <div class="col-md-7 col-sm-12">
-                    <textarea style="resize:none" name="visa015" value="vvisa015" class="form-control" rows="1"></textarea><br/>
-               </div>     
-        </div>   
-    </div>
-          <div class="row">
-        <div class="col-md-12 col-sm-12">
-            <p class="questions">Is this an Ontario High School? <br/></p>
-               <div class="col-md-2 col-sm-12">
-                     <select name="visa016" value="vvisa016" class="form-control">
-                     <option>Yes</option>>
-                     <option>No</option>
-                     </select><br/>
-               </div>     
-        </div>   
-    </div>
-    <!--End of questions-->
-    <!--Save/Next/Prev-->
-    <div class="row">
-        <div class="col-md-7 col-sm-12">
- 
-     <div class="col-md-3 col-sm-12">
-     	<a id="prevButton" href="program.html"> <i class="fa fa-angle-left"></i> Home 
-</a>
-     </div>
-     <center>
-     <div class="col-md-2 col-md-offset-2 col-sm-12">
-     	<button type="button" class="savebutton">Save</button>
-     </div> 
-     </center> 
-    <div class="col-md-3 col-md-offset-2 col-sm-12">
-    	<a id="nextButton" href="visa_app2.html">Next <i class="fa fa-angle-right"></i>
-</a>
-   </div>
-   
-        </div>
         </div>
         <!--End of Save/Next/Prev-->
         <!-- /.row -->
