@@ -121,17 +121,18 @@
             <div class="col-md-5 col-sm-12 ">
                 <br/>
                 <h3>1. Please Choose A File</h3>
-                <input class="filestyle" type="file" data-buttonText="" data-buttonBefore="true" onclick="toggleVis(document.getElementById('uploadButton'))">
+                <input class="filestyle" type="file" data-buttonText="" data-buttonBefore="true" onclick="toggleVis(document.getElementById('uploadStep'))">
 
             </div>
-            <div class="col-md-5 col-sm-12 ">
+            <div class="col-md-3 col-sm-12 ">
                 <br/>
-
-
-                <button id="uploadButton" onclick="toggleVis(document.getElementById('progressBar'))">
-                    <h3>2. Upload</h3>  <i class="fa fa-upload fa-2x"></i>
-
-                </button>
+<div id="uploadStep">
+                
+                
+                <h3>2. Click Upload</h3>
+                                  <center><button  id="uploadButton"type="button" class="btn btn-danger btn-block" onclick="toggleVis(document.getElementById('progressBar'))"> <i class="fa fa-cloud-upload"></i> Upload</button>
+    </center>
+            </div>
             </div>
 
         </div>
@@ -144,9 +145,11 @@
 
                 <div class="progress">
                     <div class="progress-bar progress-bar-danger active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
-                        <span class="sr-only">45% Complete</span>
+                        
                     </div>
+                    
                 </div>
+                <div class="white">Your file is being uploaded...  <i class="fa fa-spinner fa-spin"></i></div>
             </div>
         </div>
 

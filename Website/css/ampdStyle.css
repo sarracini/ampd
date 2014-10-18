@@ -172,8 +172,6 @@ a#prevButton {
     position: absolute;
 }
 .subtext1 {
-    width:70%;
-    text-align: center;
     margin-top:5px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -212,11 +210,8 @@ li {
     color: #999;
 }
 #uploadButton {
-    border: none;
-    background: none;
-    text-decoration: none;
-    color: #000;
-    visibility: hidden;
+  
+    
 }
 #portfolio {
     font-family: 'Roboto', sans-serif;
@@ -260,4 +255,11 @@ li {
     width: 90%;
     height: 70%;
     z-index: -1;
+}
+#uploadStep {
+    visibility: hidden;
+}
+
+.white {
+    color:white;
 }
