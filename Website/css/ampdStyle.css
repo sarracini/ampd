@@ -23,7 +23,7 @@ body {
     background: url("http://i.imgur.com/HNdbMzl.jpg") no-repeat;
     background-size: 8px 93px;
 }
-#logout {
+#logout a{
     right: 0;
     position: absolute;
     font-family: 'Roboto', sans-serif;
@@ -31,7 +31,7 @@ body {
     font-size: 15px;
     color: #fff;
     margin-right: 20px;
-    height: 100px;
+    height: auto;
     margin-top: -40px;
 }
 .full {

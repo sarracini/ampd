@@ -28,26 +28,34 @@
 <body>
 
     <!-- Page Content -->
+   <!--Menu Bar-->
     <div class="col-md-12 col-sm-12">
         <div class="col-md-1 col-sm-12 col-md-offset-9">
-            <a href="program.html">
-                <div id="logout">Home <i class="fa fa-home"></i>
-                </div>
+            <div id="logout">
+            <a href="program.html" data-original-title="Go back to Program Selection" class="menu">
+                Home <i class="fa fa-home"></i>
+               
             </a>
+                 </div>
         </div>
         <div class="col-md-1 col-sm-12">
-            <a data-toggle="modal" data-target="#myModal">
-                <div id="logout">Help <i class="fa fa-question-circle"></i>
-                </div>
+            <div id="logout">
+            <a data-toggle="modal" data-target="#myModal" data-original-title="Click for help & tips" class="menu">
+                Help <i class="fa fa-question-circle"></i>
+               
             </a>
+                 </div>
         </div>
         <div class="col-md-1  col-sm-12">
-            <a href="index.html">
-                <div id="logout">Logout <i class="fa fa-power-off"></i>
-                </div>
+            <div id="logout">
+            <a href="index.html" data-original-title="Log out and save" class="menu">
+                Logout <i class="fa fa-power-off"></i>
+                
             </a>
+                </div>
         </div>
     </div>
+    <!--Menu Bar-->
 
     <!--Popup-->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -160,9 +168,9 @@
                 <div class="col-md-3 col-sm-12">
                     <a id="prevButton" href="visa_app.html"> <i class="fa fa-angle-left"></i> Prev</a>
                 </div>
-                <center>
+               <center>
                     <div class="col-md-2 col-md-offset-2 col-sm-12">
-                        <button type="button" class="savebutton">Save</button>
+                        <button type="button" class="savebutton" data-original-title="Don't forget to save your work!">Save</button>
                     </div>
                 </center>
                 <div class="col-md-3 col-md-offset-2 col-sm-12">
@@ -180,6 +188,22 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    
+    <script>
+    
+    $(document).ready(function(){
+    $(".savebutton").tooltip({
+        placement : 'top'
+    });
+});
+        
+         $(document).ready(function(){
+    $(".menu").tooltip({
+        placement : 'bottom'
+    });
+});
+    
+    </script>
 
 
 </body>
