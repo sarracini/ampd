@@ -246,6 +246,8 @@ li {
     margin-right: 0px;
     line-height: 110%;
     margin-top: 25px;
+    margin-right:50px;
+    
 }
 #progressBar {
     visibility: hidden;
