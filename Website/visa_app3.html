@@ -103,9 +103,11 @@
         <!--/Headings-->
 
         <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <h3 id="portfolio">Please upload an image of your piece</h3> 
+            <div class="col-md-6 col-sm-12">
+                <div class="subtext">Please upload an image file which demonstrates your ability to create creative works of art using either water colours or oils on canvas.</div>
+                
             </div>
+            <div class="col-md-6 col-sm-12"></div>
         </div>
         <div class="row">
             <div class="col-md-4 col-md-12">
@@ -115,16 +117,18 @@
         </div>
 
         <div class="row">
-            <div class="col-md-4 col-sm-12 ">
+            <div class="col-md-5 col-sm-12 ">
                 <br/>
+                <h3>1. Please Choose A File</h3>
+                <input class="filestyle" type="file" data-buttonText="" data-buttonBefore="true" onclick="toggleVis(document.getElementById('uploadButton'))">
 
-                <input class="filestyle" type="file" data-buttonBefore="true" onclick="toggleVis(document.getElementById('uploadButton'))">
+            </div>
+            <div class="col-md-5 col-sm-12 ">
                 <br/>
-
 
 
                 <button id="uploadButton" onclick="toggleVis(document.getElementById('progressBar'))">
-                    Upload <i class="fa fa-upload"></i>
+                    <h3>2. Upload</h3>  <i class="fa fa-upload fa-2x"></i>
 
                 </button>
             </div>
@@ -132,7 +136,7 @@
         </div>
         <br/>
         <div id="progressBar" class="row">
-            <div class="col-md-4 col-sm-12">
+            <div class="col-md-8 col-sm-12">
 
 
 
@@ -192,19 +196,11 @@
             var res = str.replace(str, "Replace File");
             console.log(str);
 
-            var rep = "Replace File";
 
-            $(":file").filestyle('buttonText', rep);
+
+            $(":file").filestyle('buttonText', " Replace File");
 
         };
-
-
-
-
-
-        $(":file").filestyle({
-            buttonBefore: true
-        });
     </script>
 
 </body>

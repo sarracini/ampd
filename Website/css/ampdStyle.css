@@ -12,6 +12,8 @@ body {
     font-weight: 400;
     font-size: 20px;
     color: #999;
+    margin-top:20px;
+    margin-bottom: 20px;
 }
 #sideBar {
     margin-top: 10px;
@@ -25,9 +27,9 @@ body {
     right: 0;
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 17px;
-    color: #999;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
     margin-right: 20px;
     height: 100px;
     margin-top: -40px;
@@ -210,10 +212,7 @@ li {
     border: none;
     background: none;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 20px;
-    color: #999;
+    color: #000;
     visibility: hidden;
 }
 #portfolio {
