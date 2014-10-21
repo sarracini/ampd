@@ -74,6 +74,14 @@ h3 {
     font-size: 30px;
     color: #999;
 }
+/*This is new by Ursula*/
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+}
+/*End of new*/
 #overLine {
     background: url("http://i.imgur.com/QxNoGHd.png") no-repeat;
     background-size: 20% 15px;
@@ -85,6 +93,8 @@ h3 {
     color: white;
     margin-left: -15px;
 }
+
+
 a:link {
     text-decoration: none;
     color: white;
@@ -132,6 +142,15 @@ a#signin {
     font-size: 30px;
     color: #999;
 }
+/*This is new by Ursula */
+a#continueButton {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: black;
+}
+/*End of new by Ursula*/
 a#nextButton {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -154,6 +173,24 @@ a#prevButton {
     background-size: 141px 141px;
 }
 #musicBtn {
+    width: 141px;
+    height: 141px;
+    background: url("http://i.imgur.com/JA3x1HC.png") no-repeat;
+    background-size: 141px 141px;
+}
+#designBtn {
+    width: 141px;
+    height: 141px;
+    background: url("http://i.imgur.com/JA3x1HC.png") no-repeat;
+    background-size: 141px 141px;
+}
+#swBtn {
+    width: 141px;
+    height: 141px;
+    background: url("http://i.imgur.com/JA3x1HC.png") no-repeat;
+    background-size: 141px 141px;
+}
+#productionBtn {
     width: 141px;
     height: 141px;
     background: url("http://i.imgur.com/JA3x1HC.png") no-repeat;
@@ -263,3 +300,5 @@ li {
 .white {
     color:white;
 }
+<!--This is new by Ursula-->
+
