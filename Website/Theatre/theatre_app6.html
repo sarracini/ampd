@@ -9,13 +9,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>AMPD Supplimentary Application | Design</title>
+    <title>AMPD Supplimentary Application | Theatre</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="../css/ampdStyle.css" rel="stylesheet">
+    <link href="../css/lightbox.css" rel="stylesheet" />
 
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
@@ -27,7 +28,7 @@
 
 <body>
 
-    <!-- Page Content -->
+    <!-- Page Content removed offset -->
    <!--Menu Bar-->
     <div class="col-md-12 col-sm-12">
         <div class="col-md-1 col-sm-12 col-md-offset-9">
@@ -87,6 +88,8 @@
 
     <div id="sideBar"></div>
     <div class="container">
+
+        <!--Headings-->
         <div class="col-md-12 col-sm-12">
             <div class="row">
                 <div class="col-md-7 col-sm-12">
@@ -94,93 +97,95 @@
                         Supplementary Evaluation
                         </div>
                         <div class="programName">
-                            DESIGN
+                            THEATRE
                         </div>
                     
                 </div>
+              
             </div>
         </div>
-        <!--Questions-->
+        <!--/Headings-->
 
-
-        <div class="col-md-12 col-sm-12">
-            <div class="row">
-                <br/>
-                <p class="questions">Address
-                    <br/>
-                </p>
-                <div class="col-md-7 col-sm-12">
-                      <textarea style="resize:none" name="vysdn015" value="vvysdn015" class="form-control" rows="1"></textarea>
-
-                    <br/>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-12 col-sm-12">
-            <div class="row">
-                <p class="questions">Is this an Ontario High School?
-                    <br/>
-                </p>
-                
-                <div class="col-md-2 col-sm-12">
-
-                    <select name="vysdn016" value="vysdn016" class="form-control">
-                        <option>Yes</option>>
-                        <option>No</option>
-                    </select>                    <br/>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-12 col-sm-12">
-            <div class="row">
-
-                <p class="questions">Are you currently attending, or have you previously attended, any other post-secondary institution? 
-                    <br/>
-                </p>
-                <div class="col-md-2 col-sm-12">
-                    <select name="vysdn017" value="vysdn017" class="form-control">
-                        <option>No</option>>
-                        <option>Yes</option>
-                    </select>                       <br/>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-10 col-sm-12">
-            <div class="row">
-
-                <p class="questions">If yes, please complete the following:
-                    <br/>
-                </p>
-                <p class="questions">Name of School:
-                    <br/>
-                </p>
-                <div class="col-md-9 col-sm-12">
-                    <textarea style="resize:none" name="vysdn018" class="form-control" rows="1"></textarea>
-                    <br/>
-                </div>
-            </div>
-        </div>
-
-        <!--End of questions-->
-        <!--Save/Next/Prev-->
         <div class="row">
             <div class="col-md-7 col-sm-12">
-                <div class="col-md-3 col-sm-12">
-                    <a id="prevButton" href="design_app.html"> <i class="fa fa-angle-left"></i> Prev</a>
+                <div class="subtext">Please upload an image file which demonstrates your ability to create creative works of art using either water colours or oils on canvas.</div>
+                
+            </div>
+            <div class="col-md-6 col-sm-12"></div>
+        </div>
+     
+
+        <div class="row">
+            <div class="col-md-5 col-sm-12 ">
+                <br/>
+                <h3>1. Please Choose A File</h3>
+                <input class="filestyle" type="file" data-buttonText="" data-buttonBefore="true" onclick="toggleVis(document.getElementById('uploadStep'))">
+
+            </div>
+            <div class="col-md-3 col-sm-12 ">
+                <br/>
+                <div id="uploadStep">
+                   <center> <h3>2. Click Upload</h3>
+                    
+                            <button  id="uploadButton"type="button" class="btn btn-danger btn-block" onclick="toggleVis(document.getElementById('progressBar'))"> <i class="fa fa-cloud-upload"></i> Upload</button>
+                            </center>
+            </div>
+            </div>
+
+        </div>
+        <br/>
+        <div id="progressBar" class="row">
+            <div class="col-md-8 col-sm-12">
+
+
+
+
+                <div class="progress">
+                    <div class="progress-bar progress-bar-danger active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                        
+                    </div>
+                    
                 </div>
-               <center>
+                <div class="white">Your file is being uploaded...  <i class="fa fa-spinner fa-spin"></i></div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        
+                        <h3>3. Preview</h3>
+                        <a href="http://www.davidwiesner.com/wp-content/uploads/2013/12/Mona-Lisa-landscape.png" data-lightbox="image-1" data-title="This is a caption which the student can upload">
+                            <img src="http://i.imgur.com/lE9lBvm.png" class="img-circle">
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+            <br/>
+             
+        </div>
+
+        <!--Save/Next/Prev-->
+        <br/>
+        <br/>
+        <br/>
+        <div class="row">
+            <div class="col-md-7 col-sm-12">
+
+                <div class="col-md-3 col-sm-12">
+                    <a id="prevButton" href="theatre_app5.html"> <i class="fa fa-angle-left"></i> Prev</a>
+                </div>
+                <center>
                     <div class="col-md-2 col-md-offset-2 col-sm-12">
                         <button type="button" class="savebutton" data-original-title="Don't forget to save your work!">Save</button>
                     </div>
                 </center>
                 <div class="col-md-3 col-md-offset-2 col-sm-12">
-                    <a id="nextButton" href="design_app3.html">Next <i class="fa fa-angle-right"></i></a>
+                    <a id="nextButton" href="theatre_app6.html">Next <i class="fa fa-angle-right"></i></a>
                 </div>
+
             </div>
         </div>
         <!--End of Save/Next/Prev-->
+        <!-- /.row -->
     </div>
 
     <!-- /.container -->
@@ -190,7 +195,28 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="../js/bootstrap.min.js"></script>
-    
+    <script src="../js/lightbox.min.js"></script>
+
+    <!--File Chooser-->
+    <script type="text/javascript" src="../js/bootstrap-filestyle.js">
+    </script>
+
+    <script>
+        var toggleVis = function (element) {
+            if (element.style.visibility = 'hidden') {
+                element.style.visibility = 'visible';
+            }
+
+            var str = $(":file").filestyle('buttonText');
+            var res = str.replace(str, "Replace File");
+            console.log(str);
+
+
+
+            $(":file").filestyle('buttonText', " Replace File");
+
+        };
+    </script>
     <script>
     
     $(document).ready(function(){
@@ -206,7 +232,6 @@
 });
     
     </script>
-
 
 </body>
 
