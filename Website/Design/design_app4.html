@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="program" lang="en">
+<html class="va" lang="en">
 
 <head>
 
@@ -9,36 +9,36 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>AMPD | Choose a program |Supplimentary Application</title>
+    <title>AMPD Supplimentary Application | Design</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/ampdStyle.css" rel="stylesheet">
+    <link href="../css/ampdStyle.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 </head>
 
 <body>
 
     <!-- Page Content -->
-    <!--Menu Bar-->
+   <!--Menu Bar-->
     <div class="col-md-12 col-sm-12">
-        
-        <div class="col-md-1 col-md-offset-10 col-sm-1 col-sm-offset-10">
+        <div class="col-md-1 col-sm-12 col-md-offset-9">
+            <div id="logout">
+            <a href="../program.html" data-original-title="Go back to Program Selection" class="menu">
+                Home <i class="fa fa-home"></i>
+               
+            </a>
+                 </div>
+        </div>
+        <div class="col-md-1 col-sm-12">
             <div id="logout">
             <a data-toggle="modal" data-target="#myModal" data-original-title="Click for help & tips" class="menu">
                 Help <i class="fa fa-question-circle"></i>
@@ -46,9 +46,9 @@
             </a>
                  </div>
         </div>
-        <div class="col-md-1  col-sm-1">
+        <div class="col-md-1  col-sm-12">
             <div id="logout">
-            <a href="index.html" data-original-title="Log out and save">
+            <a href="../index.html" data-original-title="Log out and save" class="menu">
                 Logout <i class="fa fa-power-off"></i>
                 
             </a>
@@ -86,69 +86,96 @@
     <!--Popup-->
 
     <div id="sideBar"></div>
-
     <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <h1>Hello, Rebecca Zeidenberg</h1>
-                <div class="col-md-8 col-sm-12">
-                    <p class="subtext">If you have applied to more than one program, you must do a separate supplementary evaluation for each.</p>
-                    <br/>
-                </div>
-                <div class="col-md-12 col-sm-12">
-
-                    <div class="col-md-2 col-sm-12">
-                        <a href="Design/design_landing.html">
-                        <div id="designBtn">
-                            <i class="fa fa-circle-thin fa-2x" style="color:#4bd21c;margin-left:110px;margin-top:5px"></i>
+        <div class="col-md-12 col-sm-12">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <div class="suppHeading">
+                        Supplementary Evaluation
                         </div>
-                        <div class="subtext1">
-                            Application Complete
+                        <div class="programName">
+                           Bachelor of Design<br/> Honours
                         </div>
-                        </a>
-                    </div>
-
-                    <div class="col-md-2 col-sm-12">
-                        <a href="Theatre/theatre_app.html">
-                        <div id="theatreBtn"></div>
-                        <div class="subtext1">
-                            Deadline: Oct. 31 2015
-                        </div>
-                        </a>
-                    </div>
-
-                    <div class="col-md-2 col-sm-12">
-                        <a href="SW/sw_app.html">
-                            <div id="swBtn">
-                            </div>
-                        </a>
-                        <div class="subtext1">
-                            Deadline: Oct. 31 2015
-                        </div>
-                    </div>
                     
-                     <div class="col-md-2 col-sm-12">
-                        <a href="Production/production_app.html">
-                            <div id="proBtn">
-                            </div>
-                        </a>
-                        <div class="subtext1">
-                            Deadline: Oct. 31 2015
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
-        <!-- /.row -->
+        <!--Questions-->
+
+
+        <div class="col-md-7 col-sm-12">
+            <div class="row">
+<br/>
+                <p class="questions">Why Design? Please review the information on the YSDN Program in Design at www.design.yorku.ca and tell us why you wish to study design with us.(150 words max. Use point form)
+                    <br/>
+                </p>
+                <div class="col-md-12 col-sm-12">
+                      <textarea style="resize:none" name="vysdn028" value="vysdn028" class="form-control" rows="5"></textarea>
+
+                    <br/>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12 col-sm-12">
+            <div class="row">
+                <p class="questions">Briefly describe your training or background in the visual arts/design. (150 words max)
+                    <br/>
+                </p>
+                
+                <div class="col-md-7 col-sm-12">
+
+                    <textarea style="resize:none" name="vysdn030" value="vysdn030" class="form-control" rows="5"></textarea>
+             <br/>
+                </div>
+            </div>
+        </div>
+       
+        <div class="col-md-7 col-sm-12">
+            <div class="row">
+
+                <p class="questions">Briefly describe your reaction to a piece of design seen in the last year and explain why you feel it was effective. 
+                    <br/>
+                </p>
+               
+                <div class="col-md-12 col-sm-12">
+                    <textarea style="resize:none" name="vysdn032" class="form-control" rows="5"></textarea>
+                    <br/>
+                </div>
+            </div>
+        </div>
+
+        <!--End of questions-->
+         <!--Save/Next/Prev-->
+        <div class="row">
+            <div class="col-md-7 col-sm-12">
+                <div class="col-xs-4 col-sm-4 col-md-3">
+                    <a id="prevButton" href="design_app3.html"> <i class="fa fa-angle-left"></i> Prev</a>
+                </div>
+               
+                    <div class=" col-xs-4 col-sm-4 col-md-2 col-md-offset-2 ">
+                        <button type="button" class="savebutton" data-original-title="Don't forget to save your work!">Save</button>
+                    </div>
+                
+                <div class="col-xs-4 col-sm-4 col-md-3 col-md-offset-2 ">
+                    <a id="nextButton" href="design_app5.html">Next <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <!--End of Save/Next/Prev-->
     </div>
+    
+    
+    <!-- /.container -->
 
     <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
+    <script src="../js/jquery-1.11.0.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
     
-     <script>
+    <script>
     
     $(document).ready(function(){
     $(".savebutton").tooltip({
@@ -163,6 +190,7 @@
 });
     
     </script>
+
 
 </body>
 

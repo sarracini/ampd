@@ -12,28 +12,35 @@
     <title>AMPD Supplimentary Application | Visual Arts</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/ampdStyle.css" rel="stylesheet">
+    <link href="../css/ampdStyle.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
 <body>
 
+
     <!-- Page Content -->
-   <!--Menu Bar-->
+    <!--Menu Bar-->
     <div class="col-md-12 col-sm-12">
         <div class="col-md-1 col-sm-12 col-md-offset-9">
             <div id="logout">
             <a href="program.html" data-original-title="Go back to Program Selection" class="menu">
-                Home <i class="fa fa-home"></i>
+                Home<i class="fa fa-home"></i>
                
             </a>
                  </div>
@@ -41,7 +48,7 @@
         <div class="col-md-1 col-sm-12">
             <div id="logout">
             <a data-toggle="modal" data-target="#myModal" data-original-title="Click for help & tips" class="menu">
-                Help <i class="fa fa-question-circle"></i>
+                Help<i class="fa fa-question-circle"></i>
                
             </a>
                  </div>
@@ -49,7 +56,7 @@
         <div class="col-md-1  col-sm-12">
             <div id="logout">
             <a href="index.html" data-original-title="Log out and save" class="menu">
-                Logout <i class="fa fa-power-off"></i>
+                Logout<i class="fa fa-power-off"></i>
                 
             </a>
                 </div>
@@ -92,102 +99,99 @@
                 <div class="col-md-7 col-sm-12">
                     <div class="suppHeading">
                         Supplementary Evaluation
-                        </div>
-                        <div class="programName">
-                            VISUAL
-                            <br/>ARTS
-                        </div>
-                    
+                    </div>
+                    <div class="programName">
+                        VISUAL
+                        <br/>ARTS
+                    </div>
+
+
                 </div>
+
+
             </div>
         </div>
         <!--Questions-->
-
-
-        <div class="col-md-12 col-sm-12">
-            <div class="row">
-<br/>
-                <p class="questions">Are you currently attending, or have you previously attended, any other post-secondary institution?
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <br/>
+                <p class="questions">Are you currently attending high school?
                     <br/>
                 </p>
                 <div class="col-md-2 col-sm-12">
-
-                    <select name="visa017" value="vvisa017" class="form-control">
-                        <option>No</option>>
-                        <option>Yes</option>
+                    <select name="visa013" value="vvisa013" class="form-control">
+                        <option>Yes</option>>
+                        <option>No</option>
                     </select>
                     <br/>
-
                 </div>
+
             </div>
         </div>
-
-        <div class="col-md-12 col-sm-12">
-            <div class="row">
-                <p class="questions">If yes, please complete the following:
-                    <br/>
-                </p>
-                <p class="questions">Name of School
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <p class="questions">If yes, please indicate name of high school:
                     <br/>
                 </p>
                 <div class="col-md-7 col-sm-12">
-                    <textarea style="resize:none" name="visa018" value="vvisa018" class="form-control" rows="1"></textarea>
+                    <textarea style="resize:none" name="visa014" value="vvisa014" class="form-control" rows="1"></textarea>
                     <br/>
                 </div>
             </div>
         </div>
-        <div class="col-md-12 col-sm-12">
-            <div class="row">
-
-                <p class="questions">Degree/Certificate/Diploma (if any)
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <p class="questions">High school address:
                     <br/>
                 </p>
                 <div class="col-md-7 col-sm-12">
-                    <textarea style="resize:none" name="visa019" value="vvisa019" class="form-control" rows="1"></textarea>
+                    <textarea style="resize:none" name="visa015" value="vvisa015" class="form-control" rows="1"></textarea>
                     <br/>
                 </div>
             </div>
         </div>
-        <div class="col-md-10 col-sm-12">
-            <div class="row">
-
-                <p class="questions">In approximately 250 words, tell us about your creative interests, influences and goals as they relate to your choice for post-secondary studies.
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <p class="questions">Is this an Ontario High School?
                     <br/>
                 </p>
-                <div class="col-md-9 col-sm-12">
-                    <textarea style="resize:none" name="visa026" class="form-control" rows="5"></textarea>
+                <div class="col-md-2 col-sm-12">
+                    <select name="visa016" value="vvisa016" class="form-control">
+                        <option>Yes</option>>
+                        <option>No</option>
+                    </select>
                     <br/>
                 </div>
             </div>
         </div>
-
         <!--End of questions-->
         <!--Save/Next/Prev-->
         <div class="row">
-            <div class="col-md-7 col-sm-12">
-                <div class="col-md-3 col-sm-12">
-                    <a id="prevButton" href="visa_app.html"> <i class="fa fa-angle-left"></i> Prev</a>
-                </div>
-               <center>
-                    <div class="col-md-2 col-md-offset-2 col-sm-12">
+            <div class="col-md-7 col-sm-7">
+
+                
+                
+                    <div class="col-xs-4 col-sm-4 col-md-2 col-md-offset-5">
                         <button type="button" class="savebutton" data-original-title="Don't forget to save your work!">Save</button>
                     </div>
-                </center>
-                <div class="col-md-3 col-md-offset-2 col-sm-12">
-                    <a id="nextButton" href="visa_app3.html">Next <i class="fa fa-angle-right"></i></a>
+                
+                <div class="col-xs-4 col-sm-4 col-md-3 col-md-offset-2">
+                    <a id="nextButton" href="visa_app2.html">Next<i class="fa fa-angle-right"></i>
+</a>
                 </div>
+
             </div>
         </div>
         <!--End of Save/Next/Prev-->
-    </div>
+        <!-- /.row -->
     </div>
     <!-- /.container -->
 
     <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
+    <script src="../js/jquery-1.11.0.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
     
     <script>
     
@@ -204,7 +208,6 @@
 });
     
     </script>
-
 
 </body>
 

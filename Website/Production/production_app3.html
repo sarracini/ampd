@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html class="va" lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>AMPD Supplimentary Application | Visual Arts</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/ampdStyle.css" rel="stylesheet">
+    <link href="../css/lightbox.css" rel="stylesheet" />
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- Page Content removed offset -->
+   <!--Menu Bar-->
+    <div class="col-md-12 col-sm-12">
+        <div class="col-md-1 col-sm-12 col-md-offset-9">
+            <div id="logout">
+            <a href="../program.html" data-original-title="Go back to Program Selection" class="menu">
+                Home <i class="fa fa-home"></i>
+               
+            </a>
+                 </div>
+        </div>
+        <div class="col-md-1 col-sm-12">
+            <div id="logout">
+            <a data-toggle="modal" data-target="#myModal" data-original-title="Click for help & tips" class="menu">
+                Help <i class="fa fa-question-circle"></i>
+               
+            </a>
+                 </div>
+        </div>
+        <div class="col-md-1  col-sm-12">
+            <div id="logout">
+            <a href="../index.html" data-original-title="Log out and save" class="menu">
+                Logout <i class="fa fa-power-off"></i>
+                
+            </a>
+                </div>
+        </div>
+    </div>
+    <!--Menu Bar-->
+
+    <!--Popup-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">AMPD Evaluation Tips</h4>
+                </div>
+                <div class="modal-body">
+                    <h3>How To</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed magna nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sit amet tortor in est lobortis congue a in quam.</p>
+                    <hr>
+                    <h4>Heading 1</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed magna nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sit amet tortor in est lobortis congue a in quam. Praesent bibendum, odio non hendrerit fringilla, tortor arcu iaculis massa, sed tempor dolor urna lacinia leo. Curabitur neque lorem, imperdiet sed turpis vel, finibus porta quam. Vestibulum aliquam et massa sit amet elementum.</p>
+                    <h4>Heading 1</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed magna nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sit amet tortor in est lobortis congue a in quam. Praesent bibendum, odio non hendrerit fringilla, tortor arcu iaculis massa, sed tempor dolor urna lacinia leo. Curabitur neque lorem, imperdiet sed turpis vel, finibus porta quam. Vestibulum aliquam et massa sit amet elementum.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Popup-->
+
+    <div id="sideBar"></div>
+    <div class="container">
+
+        <!--Headings-->
+        <div class="col-md-12 col-sm-12">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <div class="suppHeading">
+                        Supplementary Evaluation
+                        </div>
+                        <div class="programName">
+                            VISUAL
+                            <br/>ARTS
+                        </div>
+                    
+                </div>
+              
+            </div>
+        </div>
+        <!--/Headings-->
+
+        <div class="row">
+            <div class="col-md-7 col-sm-12">
+                <div class="subtext">Please upload an image file which demonstrates your ability to create creative works of art using either water colours or oils on canvas.</div>
+                
+            </div>
+            <div class="col-md-6 col-sm-12"></div>
+        </div>
+     
+
+        <div class="row">
+            <div class="col-md-5 col-sm-12 ">
+                <br/>
+                <h3>1. Please Choose A File</h3>
+                <input class="filestyle" type="file" data-buttonText="" data-buttonBefore="true" onclick="toggleVis(document.getElementById('uploadStep'))">
+
+            </div>
+            <div class="col-md-3 col-sm-12 ">
+                <br/>
+                <div id="uploadStep">
+                   <center> <h3>2. Click Upload</h3>
+                    
+                            <button  id="uploadButton"type="button" class="btn btn-danger btn-block" onclick="toggleVis(document.getElementById('progressBar'))"> <i class="fa fa-cloud-upload"></i> Upload</button>
+                            </center>
+            </div>
+            </div>
+
+        </div>
+        <br/>
+        <div id="progressBar" class="row">
+            <div class="col-md-8 col-sm-12">
+
+
+
+
+                <div class="progress">
+                    <div class="progress-bar progress-bar-danger active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                        
+                    </div>
+                    
+                </div>
+                <div class="white">Your file is being uploaded...  <i class="fa fa-spinner fa-spin"></i></div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        
+                        <h3>3. Preview</h3>
+                        <a href="http://www.davidwiesner.com/wp-content/uploads/2013/12/Mona-Lisa-landscape.png" data-lightbox="image-1" data-title="This is a caption which the student can upload">
+                            <img src="http://i.imgur.com/lE9lBvm.png" class="img-circle">
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+            <br/>
+             
+        </div>
+
+        <!--Save/Next/Prev-->
+        <br/>
+        <br/>
+        <br/>
+        <div class="row">
+            <div class="col-md-7 col-sm-12">
+
+                <div class="col-md-3 col-sm-12">
+                    <a id="prevButton" href="visa_app2.html"> <i class="fa fa-angle-left"></i> Prev</a>
+                </div>
+                <center>
+                    <div class="col-md-2 col-md-offset-2 col-sm-12">
+                        <button type="button" class="savebutton" data-original-title="Don't forget to save your work!">Save</button>
+                    </div>
+                </center>
+                <div class="col-md-3 col-md-offset-2 col-sm-12">
+                    <a id="nextButton" href="visa_app3.html">Next <i class="fa fa-angle-right"></i></a>
+                </div>
+
+            </div>
+        </div>
+        <!--End of Save/Next/Prev-->
+        <!-- /.row -->
+    </div>
+
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="../js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/lightbox.min.js"></script>
+
+    <!--File Chooser-->
+    <script type="text/javascript" src="../js/bootstrap-filestyle.js">
+    </script>
+
+    <script>
+        var toggleVis = function (element) {
+            if (element.style.visibility = 'hidden') {
+                element.style.visibility = 'visible';
+            }
+
+            var str = $(":file").filestyle('buttonText');
+            var res = str.replace(str, "Replace File");
+            console.log(str);
+
+
+
+            $(":file").filestyle('buttonText', " Replace File");
+
+        };
+    </script>
+    <script>
+    
+    $(document).ready(function(){
+    $(".savebutton").tooltip({
+        placement : 'top'
+    });
+});
+        
+         $(document).ready(function(){
+    $(".menu").tooltip({
+        placement : 'bottom'
+    });
+});
+    
+    </script>
+
+</body>
+
+</html>

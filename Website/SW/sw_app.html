@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="program" lang="en">
+<html class="va" lang="en">
 
 <head>
 
@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>AMPD | Choose a program |Supplimentary Application</title>
+    <title>AMPD Supplimentary Application | Visual Arts</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -21,7 +21,6 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,11 +33,19 @@
 
 <body>
 
+
     <!-- Page Content -->
     <!--Menu Bar-->
     <div class="col-md-12 col-sm-12">
-        
-        <div class="col-md-1 col-md-offset-10 col-sm-1 col-sm-offset-10">
+        <div class="col-md-1 col-sm-12 col-md-offset-9">
+            <div id="logout">
+            <a href="program.html" data-original-title="Go back to Program Selection" class="menu">
+                Home <i class="fa fa-home"></i>
+               
+            </a>
+                 </div>
+        </div>
+        <div class="col-md-1 col-sm-12">
             <div id="logout">
             <a data-toggle="modal" data-target="#myModal" data-original-title="Click for help & tips" class="menu">
                 Help <i class="fa fa-question-circle"></i>
@@ -46,9 +53,9 @@
             </a>
                  </div>
         </div>
-        <div class="col-md-1  col-sm-1">
+        <div class="col-md-1  col-sm-12">
             <div id="logout">
-            <a href="index.html" data-original-title="Log out and save">
+            <a href="index.html" data-original-title="Log out and save" class="menu">
                 Logout <i class="fa fa-power-off"></i>
                 
             </a>
@@ -86,61 +93,99 @@
     <!--Popup-->
 
     <div id="sideBar"></div>
-
     <div class="container">
+        <div class="col-md-12 col-sm-12">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <div class="suppHeading">
+                        Supplementary Evaluation
+                    </div>
+                    <div class="programName">
+                        VISUAL
+                        <br/>ARTS
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <!--Questions-->
         <div class="row">
             <div class="col-md-12 col-sm-12">
-                <h1>Hello, Rebecca Zeidenberg</h1>
-                <div class="col-md-8 col-sm-12">
-                    <p class="subtext">If you have applied to more than one program, you must do a separate supplementary evaluation for each.</p>
+                <br/>
+                <p class="questions">Are you currently attending high school?
+                    <br/>
+                </p>
+                <div class="col-md-2 col-sm-12">
+                    <select name="visa013" value="vvisa013" class="form-control">
+                        <option>Yes</option>>
+                        <option>No</option>
+                    </select>
                     <br/>
                 </div>
-                <div class="col-md-12 col-sm-12">
 
-                    <div class="col-md-2 col-sm-12">
-                        <a href="Design/design_landing.html">
-                        <div id="designBtn">
-                            <i class="fa fa-circle-thin fa-2x" style="color:#4bd21c;margin-left:110px;margin-top:5px"></i>
-                        </div>
-                        <div class="subtext1">
-                            Application Complete
-                        </div>
-                        </a>
-                    </div>
-
-                    <div class="col-md-2 col-sm-12">
-                        <a href="Theatre/theatre_app.html">
-                        <div id="theatreBtn"></div>
-                        <div class="subtext1">
-                            Deadline: Oct. 31 2015
-                        </div>
-                        </a>
-                    </div>
-
-                    <div class="col-md-2 col-sm-12">
-                        <a href="SW/sw_app.html">
-                            <div id="swBtn">
-                            </div>
-                        </a>
-                        <div class="subtext1">
-                            Deadline: Oct. 31 2015
-                        </div>
-                    </div>
-                    
-                     <div class="col-md-2 col-sm-12">
-                        <a href="Production/production_app.html">
-                            <div id="proBtn">
-                            </div>
-                        </a>
-                        <div class="subtext1">
-                            Deadline: Oct. 31 2015
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <p class="questions">If yes, please indicate name of high school:
+                    <br/>
+                </p>
+                <div class="col-md-7 col-sm-12">
+                    <textarea style="resize:none" name="visa014" value="vvisa014" class="form-control" rows="1"></textarea>
+                    <br/>
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <p class="questions">High school address:
+                    <br/>
+                </p>
+                <div class="col-md-7 col-sm-12">
+                    <textarea style="resize:none" name="visa015" value="vvisa015" class="form-control" rows="1"></textarea>
+                    <br/>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <p class="questions">Is this an Ontario High School?
+                    <br/>
+                </p>
+                <div class="col-md-2 col-sm-12">
+                    <select name="visa016" value="vvisa016" class="form-control">
+                        <option>Yes</option>>
+                        <option>No</option>
+                    </select>
+                    <br/>
+                </div>
+            </div>
+        </div>
+        <!--End of questions-->
+        <!--Save/Next/Prev-->
+        <div class="row">
+            <div class="col-md-7 col-sm-12">
+
+
+                <center>
+                    <div class="col-md-2 col-md-offset-5 col-sm-12">
+                        <button type="button" class="savebutton" data-original-title="Don't forget to save your work!">Save</button>
+                    </div>
+                </center>
+                <div class="col-md-3 col-md-offset-2 col-sm-12">
+                    <a id="nextButton" href="visa_app2.html">Next <i class="fa fa-angle-right"></i>
+</a>
+                </div>
+
+            </div>
+        </div>
+        <!--End of Save/Next/Prev-->
         <!-- /.row -->
     </div>
+    <!-- /.container -->
 
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
@@ -148,7 +193,7 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     
-     <script>
+    <script>
     
     $(document).ready(function(){
     $(".savebutton").tooltip({
