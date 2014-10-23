@@ -44,6 +44,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    min-height: 100%;
 }
 .program {
     background-image: url("http://i.imgur.com/L3qOD3I.jpg");
@@ -51,6 +52,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    min-height: 100%;
 }
 .va {
     background-image: url("http://i.imgur.com/4voNN7i.jpg");
@@ -58,6 +60,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    min-height: 100%;
 }
 h1 {
     font-family: 'Roboto', sans-serif;
@@ -185,6 +188,7 @@ a#prevButton {
     color: #999;
 }
 #sideCircle {
+    margin-top:80px;
     position: absolute;
 }
 .subtext1 {
