@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+
+    <title>Register | AMPD Supplimentary Application</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/ampdStyle.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <!-- Page Content -->
+
+
+    <!--Popup-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">Trouble Logging in?</h4>
+                </div>
+                <div class="modal-body">
+                    <h3>How To</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed magna nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sit amet tortor in est lobortis congue a in quam.</p>
+                    <hr>
+                    <h4>Heading 1</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed magna nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sit amet tortor in est lobortis congue a in quam. Praesent bibendum, odio non hendrerit fringilla, tortor arcu iaculis massa, sed tempor dolor urna lacinia leo. Curabitur neque lorem, imperdiet sed turpis vel, finibus porta quam. Vestibulum aliquam et massa sit amet elementum.</p>
+                    <h4>Heading 1</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed magna nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sit amet tortor in est lobortis congue a in quam. Praesent bibendum, odio non hendrerit fringilla, tortor arcu iaculis massa, sed tempor dolor urna lacinia leo. Curabitur neque lorem, imperdiet sed turpis vel, finibus porta quam. Vestibulum aliquam et massa sit amet elementum.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Popup-->
+
+    <div id="sideBar"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1>Thanks, First Last</h1>
+                <div class="col-md-8 col-sm-12">
+                    <p class="subtext">Your account is now active. Click continue to log in.</p>
+                    <br/>
+                </div>
+
+
+            </div>
+            <div class="col-md-12 col-sm-12">
+                <div class="col-md-8 col-sm-12">
+                    <div class="form-horizontal" role="form">
+
+                      
+
+
+                        <div class="form-group">
+                            <div class="col-sm-3" id="registerButt"><a id="signin" href="../index.html">Continue <i class="fa fa-caret-right fa-lg"></i></a>
+
+                            </div>
+                            <div class="col-sm-4">
+                                 <a id="signin" data-toggle="modal" data-target="#myModal" data-original-title="Click for help & tips" class="menu">Login Help <i class="fa fa-question-circle"></i>
+               
+            </a>
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var toggleVis = function (element) {
+            if (element.style.visibility = 'hidden') {
+                element.style.visibility = 'visible';
+            }
+
+            var str = $(":file").filestyle('buttonText');
+            var res = str.replace(str, "Replace File");
+            console.log(str);
+
+
+
+            $(":file").filestyle('buttonText', " Replace File");
+
+        };
+    </script>
+    <!-- jQuery Version 1.11.0 -->
+    <script src="../js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -21,6 +21,7 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,27 +40,61 @@
     <div class="col-md-12 col-sm-12">
         <div class="col-md-1 col-sm-12 col-md-offset-9">
             <div id="logout">
-            <a href="../program.html" data-original-title="Go back to Program Selection" class="menu">
+                <a href="" data-toggle="modal" data-target=".SaveandQuit" class="menu">
                 Home <i class="fa fa-home"></i>
                
             </a>
-                 </div>
+
+
+                <!--Save and Quit Modal-->
+                <div class="modal fade SaveandQuit" tabindex="-1" role="dialog" aria-labelledby="Save and Quit" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div id="centerScreen">
+                            
+                            <h6 class="textCenter">Exit</h6>
+                            
+                            <div class="textCenter white">
+                            Have you saved your work? If not close this window and click save. 
+                            </div>
+                            <br/>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="row">
+                                    <div class="col-md-4 col-md-offset-2 col-sm-6">
+
+                                        <a href="#" class="btn btn-success btn-large"><i class="icon-white icon-ok"></i> Yes I have, let me leave</a>
+
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+
+                                       <a href="#" class="btn btn-danger btn-large"  data-dismiss="modal"><i class="icon-white icon-remove"></i> No I have not, let me Save</a>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Save and Quit modal-->
+
+
+            </div>
         </div>
         <div class="col-md-1 col-sm-12">
             <div id="logout">
-            <a data-toggle="modal" data-target="#myModal" data-original-title="Click for help & tips" class="menu">
+                <a data-toggle="modal" data-target="#myModal" data-original-title="Click for help & tips" class="menu">
                 Help <i class="fa fa-question-circle"></i>
                
             </a>
-                 </div>
+            </div>
         </div>
         <div class="col-md-1  col-sm-12">
             <div id="logout">
-            <a href="../index.html" data-original-title="Log out and save" class="menu">
+                <a href="../index.html" data-original-title="Log out and save" class="menu">
                 Logout <i class="fa fa-power-off"></i>
                 
             </a>
-                </div>
+            </div>
         </div>
     </div>
     <!--Menu Bar-->
@@ -101,38 +136,38 @@
                         Supplementary Evaluation
                     </div>
                     <div class="programName">
-                        DESIGN
-                        <br/>
+                        Bachelor of Design
+                        <br/>Honours
                     </div>
                 </div>
             </div>
         </div>
         <!--Questions-->
         <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <br/>
-                
-                <div class="col-md-3">
-                     <p class="questions">Surname
+
+
+
+            <div class="col-md-3">
+                <p class="questions">Surname
                     <br/>
                 </p>
                 <div class="col-md-12 col-sm-12">
-                     <textarea style="resize:none" name="vysdn001" value="vysdn001" class="form-control" rows="1"></textarea>
+                    <textarea style="resize:none" name="vysdn001" value="vysdn001" class="form-control" rows="1"></textarea>
                     <br/>
                 </div>
-                </div>
-               
-                 <div class="col-md-3">
-                     <p class="questions">First Name
+            </div>
+
+            <div class="col-md-3">
+                <p class="questions">First Name
                     <br/>
                 </p>
                 <div class="col-md-12 col-sm-12">
-                     <textarea style="resize:none" name="vysdn002" value="vysdn002" class="form-control" rows="1"></textarea>
+                    <textarea style="resize:none" name="vysdn002" value="vysdn002" class="form-control" rows="1"></textarea>
                     <br/>
                 </div>
-                </div>
-           </div>
-            
+            </div>
+
+
         </div>
         <div class="row">
             <div class="col-md-12 col-sm-12">
@@ -151,7 +186,7 @@
                     <br/>
                 </p>
                 <div class="col-md-2 col-sm-12">
-                   <select name="vysdn013" value="vysdn013" class="form-control">
+                    <select name="vysdn013" value="vysdn013" class="form-control">
                         <option>Yes</option>>
                         <option>No</option>
                     </select>
@@ -173,15 +208,15 @@
         <!--End of questions-->
         <!--Save/Next/Prev-->
         <div class="row">
-            <div class="col-md-7 col-sm-12">
+            <div class="col-md-7 col-sm-7">
 
 
-                <center>
-                    <div class="col-md-2 col-md-offset-5 col-sm-12">
-                        <button type="button" class="savebutton" data-original-title="Don't forget to save your work!">Save</button>
-                    </div>
-                </center>
-                <div class="col-md-3 col-md-offset-2 col-sm-12">
+
+                <div class="col-xs-4 col-sm-4 col-md-2 col-md-offset-5">
+                    <button type="button" class="savebutton" data-original-title="Don't forget to save your work!">Save</button>
+                </div>
+
+                <div class="col-xs-4 col-sm-4 col-md-3 col-md-offset-2">
                     <a id="nextButton" href="design_app2.html">Next <i class="fa fa-angle-right"></i>
 </a>
                 </div>
@@ -189,7 +224,20 @@
             </div>
         </div>
         <!--End of Save/Next/Prev-->
-        <!-- /.row -->
+        <!--Page Count-->
+        <div class="row">
+            <div class="col-md-7 col-sm-7">
+                <div class="col-xs-4 col-sm-4 col-md-2 col-md-offset-5">
+                    <div id="pageCount">
+                        1/6
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--/Page Count-->
+    <!-- /.row -->
     </div>
     <!-- /.container -->
 
@@ -198,21 +246,19 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="../js/bootstrap.min.js"></script>
-    
+
     <script>
-    
-    $(document).ready(function(){
-    $(".savebutton").tooltip({
-        placement : 'top'
-    });
-});
-        
-         $(document).ready(function(){
-    $(".menu").tooltip({
-        placement : 'bottom'
-    });
-});
-    
+        $(document).ready(function () {
+            $(".savebutton").tooltip({
+                placement: 'top'
+            });
+        });
+
+        $(document).ready(function () {
+            $(".menu").tooltip({
+                placement: 'bottom'
+            });
+        });
     </script>
 
 </body>

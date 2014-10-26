@@ -16,23 +16,26 @@ body {
     margin-bottom: 20px;
 }
 #sideBar {
-    margin-top: 10px;
+    margin-top: 50px;
     position: absolute;
     width: 8px;
     height: 93px;
     background: url("http://i.imgur.com/HNdbMzl.jpg") no-repeat;
     background-size: 8px 93px;
 }
-#logout a{
-    right: 0;
-    position: absolute;
+#logout {
+    width:auto;
+    display: inline-block;
+    position:relative;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 15px;
-    color: #fff;
-    margin-right: 20px;
+    
     height: auto;
-    margin-top: -40px;
+    margin-top: -30px;
+}
+#logout a{
+    color: #fff;
 }
 .full {
     background-image: url("http://i.imgur.com/GOp7A1D.jpg");
@@ -41,6 +44,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    min-height: 100%;
 }
 .program {
     background-image: url("http://i.imgur.com/L3qOD3I.jpg");
@@ -48,6 +52,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    min-height: 100%;
 }
 .va {
     background-image: url("http://i.imgur.com/4voNN7i.jpg");
@@ -55,11 +60,18 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    min-height: 100%;
 }
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 100px;
+    color: #fff;
+}
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
     color: #fff;
 }
 h2 {
@@ -74,14 +86,12 @@ h3 {
     font-size: 30px;
     color: #999;
 }
-/*This is new by Ursula*/
 h4{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 20px;
     color: black;
 }
-/*End of new*/
 #overLine {
     background: url("http://i.imgur.com/QxNoGHd.png") no-repeat;
     background-size: 20% 15px;
@@ -93,8 +103,6 @@ h4{
     color: white;
     margin-left: -15px;
 }
-
-
 a:link {
     text-decoration: none;
     color: white;
@@ -142,7 +150,6 @@ a#signin {
     font-size: 30px;
     color: #999;
 }
-/*This is new by Ursula */
 a#continueButton {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -150,7 +157,6 @@ a#continueButton {
     font-size: 20px;
     color: black;
 }
-/*End of new by Ursula*/
 a#nextButton {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -172,28 +178,10 @@ a#prevButton {
     background: url("http://i.imgur.com/7ybgWnc.png") no-repeat;
     background-size: 141px 141px;
 }
-#musicBtn {
-    width: 141px;
-    height: 141px;
-    background: url("http://i.imgur.com/JA3x1HC.png") no-repeat;
-    background-size: 141px 141px;
-}
 #designBtn {
     width: 141px;
     height: 141px;
-    background: url("http://i.imgur.com/JA3x1HC.png") no-repeat;
-    background-size: 141px 141px;
-}
-#swBtn {
-    width: 141px;
-    height: 141px;
-    background: url("http://i.imgur.com/JA3x1HC.png") no-repeat;
-    background-size: 141px 141px;
-}
-#productionBtn {
-    width: 141px;
-    height: 141px;
-    background: url("http://i.imgur.com/JA3x1HC.png") no-repeat;
+    background: url("http://i.imgur.com/BaAZeNa.png") no-repeat;
     background-size: 141px 141px;
 }
 #visualBtn {
@@ -206,6 +194,7 @@ a#prevButton {
     color: #999;
 }
 #sideCircle {
+    margin-top:80px;
     position: absolute;
 }
 .subtext1 {
@@ -300,5 +289,84 @@ li {
 .white {
     color:white;
 }
-<!--This is new by Ursula-->
 
+.white a{
+ text-decoration: none;
+    color: white;
+}
+
+<!-- new things below this-->
+
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+#sideCircle{
+visibility: hidden;
+}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+#sideCircle{
+visibility: hidden;
+}
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+#sideCircle{
+visibility: hidden;
+}
+}
+#swBtn {
+    width: 141px;
+    height: 141px;
+    background: url("http://i.imgur.com/8cFsseK.png") no-repeat;
+    background-size: 141px 141px;
+}
+
+#proBtn {
+    width: 141px;
+    height: 141px;
+    background: url("http://i.imgur.com/Mp6K8a9.png") no-repeat;
+    background-size: 141px 141px;
+}
+.fa-pencil {
+    color: #ce301b;
+}
+
+#pageCount {
+    border: none;
+    background: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+}
+
+#saveQuit {
+    background-color: red;
+}
+
+#centerScreen{
+   display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 600px;
+    height: 100px;
+    margin: auto;
+    margin-top:200px;
+}
+
+.textCenter {
+    text-align: center;
+}
