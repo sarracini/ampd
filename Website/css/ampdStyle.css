@@ -68,6 +68,12 @@ h1 {
     font-size: 100px;
     color: #fff;
 }
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
 h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -342,4 +348,25 @@ visibility: hidden;
     font-weight: 100;
     font-size: 20px;
     color: white;
+}
+
+#saveQuit {
+    background-color: red;
+}
+
+#centerScreen{
+   display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 600px;
+    height: 100px;
+    margin: auto;
+    margin-top:200px;
+}
+
+.textCenter {
+    text-align: center;
 }
