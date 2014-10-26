@@ -16,7 +16,6 @@
 
     <!-- Custom CSS -->
     <link href="../css/ampdStyle.css" rel="stylesheet">
-    <link href="../css/lightbox.css" rel="stylesheet" />
 
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
@@ -39,27 +38,56 @@
     <div class="col-md-12 col-sm-12">
         <div class="col-md-1 col-sm-12 col-md-offset-9">
             <div id="logout">
-                <a href="../program.html" data-original-title="Go back to Program Selection" class="menu">
+            <a href="" data-toggle="modal" data-target=".SaveandQuit" class="menu">
                 Home <i class="fa fa-home"></i>
                
             </a>
-            </div>
+                <!--Save and Quit Modal-->
+                <div class="modal fade SaveandQuit" tabindex="-1" role="dialog" aria-labelledby="Save and Quit" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div id="centerScreen">
+                            
+                            <h6 class="textCenter">Exit</h6>
+                            
+                            <div class="textCenter white">
+                            Have you saved your work? If not close this window and click save. 
+                            </div>
+                            <br/>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="row">
+                                    <div class="col-md-4 col-md-offset-2 col-sm-6">
+
+                                        <a href="../program.html" class="btn btn-success btn-large"><i class="icon-white icon-ok"></i> Yes I have, let me leave</a>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+
+                                       <a href="#" class="btn btn-danger btn-large"  data-dismiss="modal"><i class="icon-white icon-remove"></i> No I have not, let me Save</a>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Save and Quit modal-->
+                 </div>
         </div>
         <div class="col-md-1 col-sm-12">
             <div id="logout">
-                <a data-toggle="modal" data-target="#myModal" data-original-title="Click for help & tips" class="menu">
+            <a data-toggle="modal" data-target="#myModal" data-original-title="Click for help & tips" class="menu">
                 Help <i class="fa fa-question-circle"></i>
                
             </a>
-            </div>
+                 </div>
         </div>
         <div class="col-md-1  col-sm-12">
             <div id="logout">
-                <a href="../index.html" data-original-title="Log out and save" class="menu">
+            <a href="../index.html" data-original-title="Log out and save" class="menu">
                 Logout <i class="fa fa-power-off"></i>
                 
             </a>
-            </div>
+                </div>
         </div>
     </div>
     <!--Menu Bar-->
