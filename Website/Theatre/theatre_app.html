@@ -35,14 +35,43 @@
 
 
     <!-- Page Content -->
-    <!--Menu Bar-->
+     <!--Menu Bar-->
     <div class="col-md-12 col-sm-12">
         <div class="col-md-1 col-sm-12 col-md-offset-9">
             <div id="logout">
-            <a href="../program.html" data-original-title="Go back to Program Selection" class="menu">
+            <a href="" data-toggle="modal" data-target=".SaveandQuit" class="menu">
                 Home <i class="fa fa-home"></i>
                
             </a>
+                <!--Save and Quit Modal-->
+                <div class="modal fade SaveandQuit" tabindex="-1" role="dialog" aria-labelledby="Save and Quit" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div id="centerScreen">
+                            
+                            <h6 class="textCenter">Exit</h6>
+                            
+                            <div class="textCenter white">
+                            Have you saved your work? If not close this window and click save. 
+                            </div>
+                            <br/>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="row">
+                                    <div class="col-md-4 col-md-offset-2 col-sm-6">
+
+                                        <a href="../program.html" class="btn btn-success btn-large"><i class="icon-white icon-ok"></i> Yes I have, let me leave</a>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+
+                                       <a href="#" class="btn btn-danger btn-large"  data-dismiss="modal"><i class="icon-white icon-remove"></i> No I have not, let me Save</a>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Save and Quit modal-->
                  </div>
         </div>
         <div class="col-md-1 col-sm-12">
@@ -55,7 +84,7 @@
         </div>
         <div class="col-md-1  col-sm-12">
             <div id="logout">
-            <a href="../index.html" data-original-title="Log out and save" class="menu">
+            <a href="" data-toggle="modal" data-target=".SaveandQuit" class="menu">
                 Logout <i class="fa fa-power-off"></i>
                 
             </a>
@@ -101,21 +130,16 @@
                         Supplementary Evaluation
                     </div>
                     <div class="programName">
-                        THEATRE
-                        
+                        Bachelor of Arts <br/> Honours Theatre    
                     </div>
-
-
                 </div>
-
-
             </div>
         </div>
         <!--Questions-->
         <div class="row">
             <div class="col-md-12 col-sm-12">
                 <br/>
-                 <div class="col-md-3">
+                 <div class="col-md-3" style="padding:0px">
                      <p class="questions">Surname
                     <br/>
                 </p>
@@ -125,7 +149,7 @@
                 </div>
                 </div>
                
-                 <div class="col-md-3">
+                 <div class="col-md-3"  style="padding:0px">
                      <p class="questions">First Name
                     <br/>
                 </p>

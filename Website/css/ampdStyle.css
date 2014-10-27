@@ -143,6 +143,9 @@ a:active {
 .fa-home {
     color: #ce301b;
 }
+.fa-dollar{
+    color: #ce301b;
+}
 a#signin {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
