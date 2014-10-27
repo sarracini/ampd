@@ -28,23 +28,35 @@
 <body>
 
     <!-- Page Content -->
-   <!--Menu Bar-->
+      <!--Menu Bar-->
     <div class="col-md-12 col-sm-12">
         <div class="col-md-1 col-sm-12 col-md-offset-9">
             <div id="logout">
-            <a href="" data-toggle="modal" data-target=".SaveandQuit" class="menu">
-                Home <i class="fa fa-home"></i>
-               
-            </a>
-                <!--Save and Quit Modal-->
+                <a href="" data-toggle="modal" data-target=".SaveandQuit" class="menu">
+                Home <i class="fa fa-home"></i></a>
+            </div>
+        </div>
+        <div class="col-md-1 col-sm-12">
+            <div id="logout">
+                <a data-toggle="modal" data-target="#myModal" data-original-title="Click for help & tips" class="menu">
+                Help <i class="fa fa-question-circle"></i></a>
+            </div>
+        </div>
+        <div class="col-md-1  col-sm-12">
+            <div id="logout">
+                <a href="" data-toggle="modal" data-target=".SaveandQuit" class="menu">
+                Logout <i class="fa fa-power-off"></i></a>
+            </div>
+        </div>
+    </div>
+    <!--Menu Bar-->
+     <!--Save and Quit Modal-->
                 <div class="modal fade SaveandQuit" tabindex="-1" role="dialog" aria-labelledby="Save and Quit" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div id="centerScreen">
-                            
                             <h6 class="textCenter">Exit</h6>
-                            
                             <div class="textCenter white">
-                            Have you saved your work? If not close this window and click save. 
+                                Have you saved your work? If not close this window and click save. 
                             </div>
                             <br/>
                             <div class="col-md-12 col-sm-12">
@@ -59,32 +71,11 @@
 
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--Save and Quit modal-->
-                 </div>
-        </div>
-        <div class="col-md-1 col-sm-12">
-            <div id="logout">
-            <a data-toggle="modal" data-target="#myModal" data-original-title="Click for help & tips" class="menu">
-                Help <i class="fa fa-question-circle"></i>
-               
-            </a>
-                 </div>
-        </div>
-        <div class="col-md-1  col-sm-12">
-            <div id="logout">
-            <a href="../index.html" data-original-title="Log out and save" class="menu">
-                Logout <i class="fa fa-power-off"></i>
-                
-            </a>
-                </div>
-        </div>
-    </div>
-    <!--Menu Bar-->
+                <!--Save and Quit Modal-->
 
     <!--Popup-->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
