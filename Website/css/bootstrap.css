@@ -5094,6 +5094,8 @@ a.list-group-item-danger.active:focus {
 }
 .panel-body {
     padding: 15px;
+    
+    
 }
 .panel-heading {
     padding: 10px 15px;
@@ -5107,7 +5109,7 @@ a.list-group-item-danger.active:focus {
 .panel-title {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 16px;
+    font-size: 24px;
     color: inherit;
 }
 .panel-title > a {
@@ -5394,15 +5396,17 @@ a.list-group-item-danger.active:focus {
 }
 
 .panel-red {
-    border-color: #ebccd1;
+    border-color: #5b5b5b;
 }
 .panel-red > .panel-heading {
-    color: #a94442;
-    background-color: #f2dede;
-    border-color: #ebccd1;
+    color: #fff;
+    background-color: #2f2f2f;
+    border-color: #e61937;
+    border-width: 2px;
 }
 .panel-red > .panel-heading + .panel-collapse > .panel-body {
-    border-top-color: #ebccd1;
+    border-top-color: #e61937;
+    
 }
 .panel-red > .panel-heading .badge {
     color: #f2dede;
