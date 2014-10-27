@@ -12,7 +12,7 @@
     <title>AMPD | Choose a program |Supplimentary Application</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/ampdStyle.css" rel="stylesheet">
@@ -37,22 +37,22 @@
     <!-- Page Content -->
     <!--Menu Bar-->
     <div class="col-md-12 col-sm-12">
-
+        
         <div class="col-md-1 col-md-offset-10 col-sm-1 col-sm-offset-10">
             <div id="logout">
-                <a data-toggle="modal" data-target="#myModal" data-original-title="Click for help & tips" class="menu">
+            <a data-toggle="modal" data-target="#myModal" data-original-title="Click for help & tips" class="menu">
                 Help <i class="fa fa-question-circle"></i>
                
             </a>
-            </div>
+                 </div>
         </div>
         <div class="col-md-1  col-sm-1">
             <div id="logout">
-                <a href="index.html" data-original-title="Log out and save">
+            <a href="index.html" data-original-title="Log out and save">
                 Logout <i class="fa fa-power-off"></i>
                 
             </a>
-            </div>
+                </div>
         </div>
     </div>
     <!--Menu Bar-->
@@ -95,16 +95,47 @@
                     <p class="subtext">If you have applied to more than one program, you must do a separate supplementary evaluation for each.</p>
                     <br/>
                 </div>
+                <div class="col-md-12 col-sm-12">
 
-                 <div class="col-md-8 col-sm-12">
-                <div class="panel panel-red">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Panel title</h3>
+                    <div class="col-md-2 col-sm-12">
+                        <a href="Design/design_app.html">
+                        <div id="designBtn">
+                            <i class="fa fa-circle-thin fa-2x" style="color:#4bd21c;margin-left:110px;margin-top:5px"></i>
+                        </div>
+                        <div class="subtext1">
+                            Application Complete
+                        </div>
+                        </a>
                     </div>
-                    <div class="panel-body">
-                        Panel content
+
+                    <div class="col-md-2 col-sm-12">
+                        <a href="Theatre/theatre_app.html">
+                        <div id="theatreBtn"></div>
+                        <div class="subtext1">
+                            Deadline: Oct. 31 2015
+                        </div>
+                        </a>
                     </div>
-                </div>
+
+                    <div class="col-md-2 col-sm-12">
+                        <a href="SW/sw_app.html">
+                            <div id="swBtn">
+                            </div>
+                        </a>
+                        <div class="subtext1">
+                            Deadline: Oct. 31 2015
+                        </div>
+                    </div>
+                    
+                     <div class="col-md-2 col-sm-12">
+                        <a href="Production/production_app.html">
+                            <div id="proBtn">
+                            </div>
+                        </a>
+                        <div class="subtext1">
+                            Deadline: Oct. 31 2015
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -116,19 +147,21 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-    <script>
-        $(document).ready(function () {
-            $(".savebutton").tooltip({
-                placement: 'top'
-            });
-        });
-
-        $(document).ready(function () {
-            $(".menu").tooltip({
-                placement: 'bottom'
-            });
-        });
+    
+     <script>
+    
+    $(document).ready(function(){
+    $(".savebutton").tooltip({
+        placement : 'top'
+    });
+});
+        
+         $(document).ready(function(){
+    $(".menu").tooltip({
+        placement : 'bottom'
+    });
+});
+    
     </script>
 
 </body>
