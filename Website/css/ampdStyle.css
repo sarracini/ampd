@@ -13,6 +13,7 @@ body {
     font-size: 15px;
     color: #bababa;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 #sideBar {
     margin-top: 30px;
@@ -148,6 +149,10 @@ a:active {
 .fa-dollar{
     color: #ce301b;
 }
+.fa-book{
+    color: #ce301b;
+}
+
 a#signin {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -285,6 +290,17 @@ li {
     margin-top: 113px;
     margin-left:400px;
     
+}
+.InterviewProgramName {
+    position:absolute;
+    z-index: -1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #e7e7e7;
+    line-height: 110%;
+    margin-top:20px;
+    margin-left:-80px;
 }
 #progressBar {
     visibility: hidden;
