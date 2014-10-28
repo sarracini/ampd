@@ -153,11 +153,10 @@
                 </p>
                 <div class ="questions">
                     
-                
                 <div class="col-md-7 col-sm-12">
-                    <input type="checkbox"> Acting Conservatory	(Voice; Acting; Movement) <br/>
-                    <input type="checkbox"> Production/Design	(Management; Design; Technical Production)<br/>
-                    <input type="checkbox"> Theatre Studies	(Devised Theatre, Playwriting, Dramaturgy, Drama and Education, Theatre and Performance History, Performance Theory)<br/>
+                    <input type="checkbox" style="margin-right:10px"> Acting Conservatory	(Voice; Acting; Movement) <br/>
+                    <input type="checkbox" style="margin-right:10px"> Production/Design	(Management; Design; Technical Production)<br/>
+                    <input type="checkbox" style="margin-right:10px"> Theatre Studies (Devised Theatre, Playwriting, Dramaturgy, Drama and Education, &nbsp &nbsp &nbsp &nbsp &nbsp Theatre and Performance History, Performance Theory)<br/>
                   
                 </div>
                    
@@ -171,12 +170,16 @@
                 <p class="questions">Have you also applied to another York Fine Arts Department?  
                     <br/>
                 </p>
+                <?php include 'theatreselection.php';?>
+                <form>
                 <div class="col-md-2 col-sm-12">
-                    <select name="vthea036" value="vthea036" class="form-control">
-                        <option>No</option>>
-                        <option>Yes</option>
+                    <select id="vthea036" name="vthea036" class="form-control">
+                        <option value="1" <?php if ($vthea036 == 1 ) echo 'selected';?>No</option>
+                        <option value="2" <?php if ($vthea036 == 2 ) echo 'selected';?>Yes</option>
+                        
                     </select>                       <br/>
                 </div>
+                </form>
             </div>
         </div>
         <div class="col-md-10 col-sm-12">
@@ -224,7 +227,7 @@
     </div>
 
     <!--/Page Count-->
-    </div>
+
  
     <!-- /.container -->
 
@@ -250,7 +253,7 @@
     
     </script>
 
-
 </body>
 
 </html>
+
