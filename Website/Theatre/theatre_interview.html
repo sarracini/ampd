@@ -5,13 +5,11 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-
-
-    <title>AMPD Supplimentary Application | Review</title>
+    <title>AMPD Interview | Theatre</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.css" rel="stylesheet">
@@ -25,17 +23,16 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 
-
 </head>
 
 <body>
-    <!-- Page Content -->
 
-<!--Menu Bar-->
+    <!-- Page Content -->
+   <!--Menu Bar-->
     <div class="col-md-12 col-sm-12">
         <div class="col-md-1 col-sm-12 col-md-offset-9">
             <div id="logout">
-            <a href="../program.html"  class="menu">
+            <a href="../program.html" class="menu">
                 Home <i class="fa fa-home"></i>
                
             </a>
@@ -51,7 +48,7 @@
         </div>
         <div class="col-md-1  col-sm-12">
             <div id="logout">
-            <a href="../index.html"  class="menu">
+            <a href="../index.html" class="menu">
                 Logout <i class="fa fa-power-off"></i>
                 
             </a>
@@ -59,7 +56,8 @@
         </div>
     </div>
     <!--Menu Bar-->
-   <!--Popup-->
+
+    <!--Popup-->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -87,41 +85,91 @@
 
     <!--Popup-->
 
-
     <div id="sideBar"></div>
-
     <div class="container">
+        
+                
         <div class="row">
             <div class="col-md-12 col-sm-12">
-                <h1>Evaluation Review</h1>
-                    <p class="subtext">Some text about how this is the review of your application and this
-                        is what the reviewer will see.</p>
-            </div>
-    
-            <div class="col-md-12 col-sm-12">
-                    <p class="white">
-                        EMPTY DIV TO PUT REVIEW STUFF HERE
-                    </p>
-                <br/><br/><br/><br/><br/><br/>
-            </div>
-             
-            <div class="col-md-12 col-sm-12">
-                <div class="checkbox">
-                    <label class="white col-md-12">
-                        <input type="checkbox">I acknowledge that once I submit my evaluation I will not be able to edit and re-submit.
-                    </label>
+                <div class="col-md-9 col-sm-12">
+                        <h1>Appointment Booking</h1>
                 </div>
-                <a id="continueButton" href="#" class="btn btn-default" role="button">Submit <i class="fa fa-angle-right"></i></a>
-            </div>
-        
+                <div class="col-md-3 col-sm-12">
+                    <div class="InterviewProgramName">
+                       <br/> Bachelor of Arts <br/> Honours Theatre 
+                    </div>
+                </div>
+            </div> 
         </div>
-    </div>
-       
-        <!-- jQuery Version 1.11.0 -->
-        <script src="../js/jquery-1.11.0.js"></script>
+            
+        
+        <!--Booking-->
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                <p class="subtext">Please select a time that you are available for an on campus interview.
+                    <br/>
+                </p>
+                
+                <div class="col-md-2 col-sm-12">
 
-        <!-- Bootstrap Core JavaScript -->
-        <script src="../js/bootstrap.min.js"></script>
+                    <select class="dropdown form-control">
+                        <option>Monday Sept 12 @ 10:00am</option>>
+                        <option>Tuesday Sept 12 @ 10:00am</option>
+                         <option>Wednesday Sept 12 @ 10:00am</option>
+                        <option>Thursday Sept 12 @ 10:00am</option>
+                         <option>Friday Sept 12 @ 10:00am</option>
+                    </select><br/>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12">
+            <a id="continueButton" href="#" class="btn btn-default" role="button">Book Appointment <i class="fa fa-book"></i></a>
+        </div> 
+            
+        <div class="row"> 
+            <div class="col-md-12 col-sm-12">
+                <div class="col-md-8 col-sm-12"><br/>
+                    <p class="subtext">We strongly urge you to come on campus for an evaluation, but if
+                        you cannot make it to campus you may select online evaluation.
+                    </p>
+                </div>
+                <div class="col-md-8 col-sm-12">
+                     <div id="registerButt">
+                         <a id="signin" href="theatre_interview2.html">Choose Online Evaluation <i class="fa fa-caret-right fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--End of booking-->
+       
+          
+    </div>
+ 
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="../js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+    
+    <script>
+    
+    $(document).ready(function(){
+    $(".savebutton").tooltip({
+        placement : 'top'
+    });
+});
+        
+         $(document).ready(function(){
+    $(".menu").tooltip({
+        placement : 'bottom'
+    });
+});
+    
+    </script>
+
 
 </body>
 
