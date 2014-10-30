@@ -462,5 +462,7 @@ visibility: hidden;
 }
 
 .positionClass{
+    z-index: 999;
  position:absolute;
+    
 }
