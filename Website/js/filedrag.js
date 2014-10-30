@@ -45,14 +45,14 @@
 
 		Output(
             "<div class='filewell filewell-sm'>" + "<h4><i class='fa fa-check-circle-o'></i>" +  " File Name: " + "<a style='color:black' href='http://www.davidwiesner.com/wp-content/uploads/2013/12/Mona-Lisa-landscape.png' data-lightbox='image-1' data-title='This is a caption which the student can upload'>" + file.name +
-            "</a><a href=''><i class='fa fa-times' style='color: #ce301b; float:right; margin-right:5px;'></i></a></h4></div>" 
+            "</a><button onclick='alert()' style='float:right; border:none; background:none;'><i class='fa fa-times' style='color: #ce301b; margin-right:5px;'></i></button></h4></div>" 
 			
 			
 		);
 
 	}
 
-
+    
 	// initialize
 	function Init() {
 
