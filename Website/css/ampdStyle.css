@@ -95,6 +95,12 @@ h4{
     font-size: 20px;
     color: black;
 }
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+}
 #overLine {
     background: url("http://i.imgur.com/QxNoGHd.png") no-repeat;
     background-size: 20% 15px;
@@ -146,11 +152,20 @@ a:active {
 .fa-home {
     color: #ce301b;
 }
-.fa-dollar{
+.fa-dollar {
     color: #ce301b;
 }
-.fa-book{
+.fa-book {
     color: #ce301b;
+}
+.fa-cloud-upload {
+     color: #ce301b;
+}
+.fa-file-image-o {
+    color: #ce301b;
+}
+.fa-check-circle-o {
+      color: #4bd21c;
 }
 
 a#signin {
@@ -408,4 +423,46 @@ visibility: hidden;
 
 .fa-circle-thin {
     color: #4bd21c;
+}
+
+#filedrag
+{
+	display: none;
+	font-weight: bold;
+	text-align: center;
+    height:45%;
+	padding: 1em 0;
+    margin-left:30px;
+	margin-top:-20px;
+    margin-bottom:10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+	color: #fff;
+	border: 2px dashed #fff;
+	border-radius: 7px;
+	cursor: copy;
+}
+
+#filedrag.hover
+{
+	color: #fff;
+	border-color: #f00;
+	border-style: dashed;
+	
+}
+
+#messages {
+    color:#fff;
+}
+
+.fileBorder{
+    border: 1px solid #fff;
+    background:#999;
+}
+
+.positionClass{
+    z-index: 999;
+ position:absolute;
+    
 }
