@@ -87,7 +87,7 @@ h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 30px;
-    color: #999;
+    color: #fff;
 }
 h4{
     font-family: 'Roboto', sans-serif;
@@ -475,5 +475,13 @@ visibility: hidden;
 .positionClass{
     z-index: 999;
  position:absolute;
+    width:100%;
     
+}
+
+.fileText{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #898989;
 }

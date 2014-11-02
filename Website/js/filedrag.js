@@ -34,17 +34,18 @@
 
 		// process all File objects
 		for (var i = 0, f; f = files[i]; i++) {
-			ParseFile(f);
+            var fixi = files.length - i;
+			ParseFile(f,fixi);
 		}
 
 	}
 
 
 	// output file information
-	function ParseFile(file) {
+	function ParseFile(file, x) {
 
 		Output(
-            "<div class='filewell filewell-sm'>" + "<h4><i class='fa fa-check-circle-o'></i>" +  " File Name: " + "<a style='color:black' href='http://www.davidwiesner.com/wp-content/uploads/2013/12/Mona-Lisa-landscape.png' data-lightbox='image-1' data-title='This is a caption which the student can upload'>" + file.name +
+            "<div class='filewell filewell-sm'>" + "<div class='fileText'><i class='fa fa-lg fa-check-circle-o'></i>" +  " <b>File " + x + " : <i class='fa fa-spinner fa-spin'></i> </b> </div><h4>" + "<a style='color:black' href='http://www.davidwiesner.com/wp-content/uploads/2013/12/Mona-Lisa-landscape.png' data-lightbox='image-1' data-title='This is a caption which the student can upload'>" + file.name +
             "</a><button onclick='alert()' style='float:right; border:none; background:none;'><i class='fa fa-times' style='color: #ce301b; margin-right:5px;'></i></button></h4></div>" 
 			
 			
