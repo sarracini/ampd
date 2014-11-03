@@ -206,24 +206,7 @@ a#prevButton {
     font-size: 30px;
     color: #fff;
 }
-#theatreBtn {
-    width: 141px;
-    height: 141px;
-    background: url("http://i.imgur.com/7ybgWnc.png") no-repeat;
-    background-size: 141px 141px;
-}
-#designBtn {
-    width: 141px;
-    height: 141px;
-    background: url("http://i.imgur.com/BaAZeNa.png") no-repeat;
-    background-size: 141px 141px;
-}
-#visualBtn {
-    width: 141px;
-    height: 141px;
-    background: url("http://i.imgur.com/8lLkzqJ.png") no-repeat;
-    background-size: 141px 141px;
-}
+
 .greyText {
     color: #999;
 }
@@ -364,11 +347,18 @@ li {
 #sideCircle{
 visibility: hidden;
 }
+    #messages{
+visibility: hidden;
+}
+
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
 #sideCircle{
+visibility: hidden;
+}
+     #messages{
 visibility: hidden;
 }
 }
@@ -378,20 +368,11 @@ visibility: hidden;
 #sideCircle{
 visibility: hidden;
 }
+     #messages{
+visibility: hidden;
 }
-#swBtn {
-    width: 141px;
-    height: 141px;
-    background: url("http://i.imgur.com/8cFsseK.png") no-repeat;
-    background-size: 141px 141px;
 }
 
-#proBtn {
-    width: 141px;
-    height: 141px;
-    background: url("http://i.imgur.com/Mp6K8a9.png") no-repeat;
-    background-size: 141px 141px;
-}
 
 
 #pageCount {
