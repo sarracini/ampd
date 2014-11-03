@@ -1,6 +1,7 @@
 
 (function() {
-
+    var fileAdded = 0;
+    var totalFile = 0;
 	// getElementById
 	function $id(id) {
 		return document.getElementById(id);
@@ -9,7 +10,13 @@
 
 	// output information
 	function Output(msg) {
+        if(fileAdded = 0){
+         m.innerHTML = null;
+            fileAdded=1;
+        }
 		var m = $id("messages");
+        var totalFiles = $id("total");
+        //totalFiles.innerHTML = 2;
 		m.innerHTML = msg + m.innerHTML;
 	}
 
@@ -36,6 +43,7 @@
 		for (var i = 0, f; f = files[i]; i++) {
             var fixi = files.length - i;
 			ParseFile(f,fixi);
+            //totalFile++;
 		}
 
 	}
@@ -45,7 +53,7 @@
 	function ParseFile(file, x) {
 
 		Output(
-            "<div class='filewell filewell-sm'>" + "<div class='fileText'><i class='fa fa-lg fa-check-circle-o'></i>" +  " <b>File " + x + " : <i class='fa fa-spinner fa-spin'></i> </b>" + "<a style='color:black' href='http://www.davidwiesner.com/wp-content/uploads/2013/12/Mona-Lisa-landscape.png' data-lightbox='image-1' data-title='This is a caption which the student can upload'>" + file.name +
+            "<div class='filewell filewell-sm'>" + "<div class='fileText'><i class='fa fa-lg fa-check-circle-o'></i>" +  " <b>File " + x + " : <i class='fa fa-spinner fa-spin'></i> </b>" + "<a style='color:black' href='http://placehold.it/750x550' data-lightbox='image-1' data-title='This is a caption which the student can upload'>" + file.name +
             "</a><button onclick='alert()' style='float:right; border:none; background:none;'><i class='fa fa-times' style='color: #ce301b; margin-right:5px;'></i></button></div> </div>" 
 			
 			
