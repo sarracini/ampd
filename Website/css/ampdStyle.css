@@ -328,14 +328,17 @@ li {
 .white {
     color:white;
 }
-
+.black {
+    color:black;
+}
 .white a{
  text-decoration: none;
     color: white;
 }
-
-<!-- new things below this-->
-
+.black a{
+ text-decoration: none;
+    color: black;
+}
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
