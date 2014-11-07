@@ -26,30 +26,53 @@
 </head>
 
 <body>
+<!-- NAV BAR-->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ampdMenu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+              
+                <div class="navbar-brand" id="ampdLogo">AMPD</div>
+                    <div class="navbar-brand" id="ampdLogoText">School of the Arts, Media, Performance & Design</div>
+                
+                </div>
+            </div>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="ampdMenu">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li> <a data-toggle="modal" data-target=".SaveandQuit" style="color:white">
+                Home <i class="fa fa-home"></i>
+               
+            </a>
+                    </li>
+                    <li> <a data-toggle="modal" data-target="#myModal" data-original-title="Click for help & tips" class="menu" style="color:white">
+                Help <i class="fa fa-question-circle"></i>
+               
+            </a>
+                    </li>
+                    <li> <a href="../index.html" data-original-title="Log out and save" style="color:white">
+                Logout <i class="fa fa-power-off"></i>
+                
+            </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!--/.navbar-->
     <!-- Page Content -->
-         <!--Menu Bar-->
-    <div class="col-md-12 col-sm-12">
-        <div class="col-md-1 col-sm-12 col-md-offset-9">
-            <div id="logout">
-                <a href="" data-toggle="modal" data-target=".SaveandQuit" class="menu">
-                Home <i class="fa fa-home"></i></a>
-            </div>
-        </div>
-        <div class="col-md-1 col-sm-12">
-            <div id="logout">
-                <a data-toggle="modal" data-target="#myModal" data-original-title="Click for help & tips" class="menu">
-                Help <i class="fa fa-question-circle"></i></a>
-            </div>
-        </div>
-        <div class="col-md-1  col-sm-12">
-            <div id="logout">
-                <a href="" data-toggle="modal" data-target=".SaveandQuit" class="menu">
-                Logout <i class="fa fa-power-off"></i></a>
-            </div>
-        </div>
-    </div>
-    <!--Menu Bar-->
+         
      <!--Save and Quit Modal-->
                 <div class="modal fade SaveandQuit" tabindex="-1" role="dialog" aria-labelledby="Save and Quit" aria-hidden="true">
                     <div class="modal-dialog modal-lg">

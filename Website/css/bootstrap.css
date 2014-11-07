@@ -70,6 +70,7 @@ mark {
 }
 small {
     font-size: 80%;
+    
 }
 sub,
 sup {
@@ -3183,8 +3184,11 @@ input[type="button"].btn-block {
 }
 .collapse {
     display: none;
+    
+    
 }
 .collapse.in {
+    
     display: block;
 }
 tr.collapse.in {
@@ -3219,6 +3223,7 @@ tbody.collapse.in {
     outline: 0;
 }
 .dropdown-menu {
+    top:auto;
     position: absolute;
     top: 100%;
     left: 0;
@@ -3231,7 +3236,7 @@ tbody.collapse.in {
     font-size: 14px;
     text-align: left;
     list-style: none;
-    background-color: #fff;
+    background-color: #000;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid #ccc;
@@ -3334,6 +3339,7 @@ tbody.collapse.in {
 }
 @media (min-width: 768px) {
     .navbar-right .dropdown-menu {
+        top:0;
         right: 0;
         left: auto;
     }
@@ -3862,8 +3868,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
     background-color:black;
     position: relative;
-    min-height: 50px;
-    margin-bottom: 20px;
+    height: 60px;
+    margin-bottom: 30px;
     border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -3877,6 +3883,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     }
 }
 .navbar-collapse {
+    
+    background:black;
     padding-right: 15px;
     padding-left: 15px;
     overflow-x: visible;
@@ -3898,8 +3906,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     .navbar-collapse.collapse {
         display: block !important;
         height: auto !important;
+        
         padding-bottom: 0;
         overflow: visible !important;
+        
     }
     .navbar-collapse.in {
         overflow-y: visible;
@@ -3919,6 +3929,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     .navbar-fixed-top .navbar-collapse,
     .navbar-fixed-bottom .navbar-collapse {
         max-height: 200px;
+        
     }
 }
 .container > .navbar-header,
@@ -3971,12 +3982,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-bottom: 0;
     border-width: 1px 0 0;
 }
-.navbar-brand {
-    float: left;
-    height: 50px;
-    padding: 15px 15px;
-    font-size: 18px;
-    line-height: 20px;
+.navbar-brand {    
+    float: left;    
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -4069,6 +4076,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
         float: left !important;
     }
     .navbar-right {
+        top:0;
+        margin-top:-60px;
         float: right !important;
     }
 }
@@ -4186,8 +4195,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     }
 }
 .navbar-default {
-    background-color: rgba(255,255,255,0.1);
-    margin-top:-50px;
+    background-color: rgba(0,0,0,0.8);
+ -webkit-box-shadow: 0px 5px 40px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 40px 5px rgba(0,0,0,0.75);
+box-shadow: 0px 5px 40px 5px rgba(0,0,0,0.75);
+   
     
 }
 .navbar-default .navbar-brand {
@@ -4234,6 +4246,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
     border-color: #e7e7e7;
+    
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -5446,7 +5459,7 @@ a.list-group-item-danger.active:focus {
 .well {
     min-height: 20px;
     padding: 19px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background-color: #f5f5f5;
     border: 1px solid #e3e3e3;
     border-radius: 4px;
@@ -5462,7 +5475,7 @@ a.list-group-item-danger.active:focus {
     border-radius: 6px;
 }
 .well-sm {
-    padding: 9px;
+    padding: 5px;
     border-radius: 3px;
 }
 .filewell {
