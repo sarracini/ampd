@@ -21,6 +21,7 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Archivo+Narrow:400,700' rel='stylesheet' type='text/css'>
 
 
 </head>
@@ -125,6 +126,29 @@
     </div>
 
     <!--Popup-->
+    
+      <!--Map Popup-->
+    <div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">York University Keele Campus Map</h4>
+                </div>
+                <div class="modal-body">
+                   <iframe src="http://maps.info.yorku.ca/files/2013/02/KEELE_Map_Colour.pdf" width="100%" height="700px" style="border: none;"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <a href="http://maps.info.yorku.ca/files/2013/02/KEELE_Map_Colour.pdf" class="btn btn-primary btn-success">Download Map <span class="glyphicon glyphicon-save"></span></a>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Map Popup-->
 
     <div id="sideBar"></div>
     <div class="container">
@@ -146,15 +170,26 @@
             
         
         <!--Booking-->
-            <div class="row">
+           
                 <div class="col-md-12 col-sm-12">
-                    <p class="subtext">The time you have selected for your on campus interview is:</p>
-                    <h3 class="white">Monday September 12th @ 10:00-10:15am</h3>  
+                    <div class="col-md-7 col-sm-12">
+                    <h5>The time you have selected for your on campus interview is:</h5> 
+                    <h3 class="white"><b>Monday September 12th @ 10:00-10:15am</b></h3> 
+                        <hr>
+                        
+                         <h5>Your interview will be held in:</h5> 
+                    <h3 class="white"><b>Accolade West 102 </b><a data-toggle="modal" data-target="#mapModal" class="btn btn-lg btn-danger" style="float:right">View Map <span class="glyphicon glyphicon-map-marker"></span></a></h3> 
+                        
+                        <hr>
+                        <h5>Things you need to know:</h5> 
+                        <p class="white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non neque nec risus pretium vulputate. Nam gravida rutrum eleifend. Aenean vitae tristique diam. Suspendisse in tortor eu diam fermentum euismod. Sed suscipit quis lectus nec rhoncus. Quisque vel ante vitae lacus elementum posuere. </p>
+                        
+                        <hr>
+                        <a href="../program.html" class="btn btn-block btn-lg btn-danger">Confirm Appointment <span class="glyphicon glyphicon-ok"></span></a>
                 </div>
-            </div>
-        <div class="col-md-6 col-sm-12">
-            <a id="continueButton" href="design_interview.html" class="btn btn-default" role="button">Change Appointment <i class="fa fa-book"></i></a>
-        </div> 
+                </div>
+            
+         
         
         
         <!--End of booking-->

@@ -24,17 +24,16 @@ body {
     background-size: 8px 93px;
 }
 #logout {
-    width:auto;
+    width: auto;
     display: inline-block;
-    position:relative;
+    position: relative;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 15px;
-    
     height: auto;
     margin-top: -30px;
 }
-#logout a{
+#logout a {
     color: #fff;
 }
 .full {
@@ -52,10 +51,9 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background-image: url("http://i.imgur.com/L3qOD3I.jpg");
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
-    
+    background-position: center;
 }
 .va {
     background-image: url("http://i.imgur.com/4voNN7i.jpg");
@@ -89,13 +87,13 @@ h3 {
     font-size: 30px;
     color: #fff;
 }
-h4{
+h4 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 20px;
     color: black;
 }
-h5{
+h5 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 20px;
@@ -142,33 +140,28 @@ a:active {
 }
 .fa-power-off {
     color: #db0000;
-    margin-right:10px;
+    margin-right: 10px;
 }
 .fa-question-circle {
     color: #db0000;
 }
-.fa-upload {
-    color: #db0000;
-}
+
 .fa-home {
     color: #db0000;
 }
 .fa-dollar {
     color: #db0000;
 }
-.fa-book {
-    color: #db0000;
-}
+
 .fa-cloud-upload {
-     color: #db0000;
+    color: #db0000;
 }
 .fa-file-image-o {
     color: #db0000;
 }
 .fa-check-circle-o {
-      color: #4bd21c;
+    color: #4bd21c;
 }
-
 a#signin {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -177,8 +170,8 @@ a#signin {
     color: #999;
 }
 a#programButt {
-    float:right;
-    display:inline-block;
+    float: right;
+    display: inline-block;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -186,7 +179,6 @@ a#programButt {
     color: #797878;
 }
 a#continueButton {
-    
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -197,7 +189,7 @@ a#nextButton {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-     font-size: 30px;
+    font-size: 30px;
     color: #fff;
     float: right;
 }
@@ -208,16 +200,15 @@ a#prevButton {
     font-size: 30px;
     color: #fff;
 }
-
 .greyText {
     color: #999;
 }
 #sideCircle {
-    margin-top:80px;
+    margin-top: 80px;
     position: absolute;
 }
 .subtext1 {
-    margin-top:5px;
+    margin-top: 5px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -254,11 +245,7 @@ li {
     font-size: 20px;
     color: #999;
 }
-#uploadButton {
-  
-    
-}
-#portfolio {
+#uploadButton {} #portfolio {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 30px;
@@ -277,10 +264,10 @@ li {
     font-size: 80px;
     color: #fff;
     line-height: 110%;
-    margin-top:20px;
+    margin-top: 20px;
 }
 .programName {
-    position:absolute;
+    position: absolute;
     z-index: -1;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -289,30 +276,29 @@ li {
     margin-right: 0px;
     line-height: 110%;
     margin-top: 133px;
-    margin-left:400px;
-    
+    margin-left: 400px;
 }
 .InterviewProgramName {
-    position:absolute;
+    position: absolute;
     z-index: -1;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 25px;
     color: #e7e7e7;
     line-height: 110%;
-    margin-top:45px;
-    margin-left:-80px;
+    margin-top: 45px;
+    margin-left: -80px;
 }
 .OnlineEvalProgramName {
-    position:absolute;
+    position: absolute;
     z-index: -1;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 25px;
     color: #e7e7e7;
     line-height: 110%;
-    margin-top:40px;
-    margin-left:-250px;
+    margin-top: 40px;
+    margin-left: -250px;
 }
 #progressBar {
     visibility: hidden;
@@ -327,72 +313,75 @@ li {
 #uploadStep {
     visibility: hidden;
 }
-
 .white {
-    color:white;
-}
-.black {
-    color:black;
-}
-.white a{
- text-decoration: none;
     color: white;
 }
-.black a{
- text-decoration: none;
+.black {
     color: black;
 }
-
+.white a {
+    text-decoration: none;
+    color: white;
+}
+.black a {
+    text-decoration: none;
+    color: black;
+}
 /* Portrait tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
 
-}
-
+@media (min-width: 992px) and (max-width: 1199px) {}
 /* Portrait tablets and small desktops */
+
 @media (min-width: 768px) and (max-width: 991px) {
-#sideCircle{
-visibility: hidden;
+    #sideCircle {
+        visibility: hidden;
+    }
+    #messages {
+        visibility: hidden;
+    }
+    #orLine {
+        visibility: hidden;
+        margin-bottom:-627px;
+    }
 }
-    #messages{
-visibility: hidden;
-}
-    
-
-}
-
 /* Landscape phones and portrait tablets */
+
 @media (max-width: 767px) {
-#sideCircle{
-visibility: hidden;
-}
-     #messages{
-visibility: hidden;
-}
-    #ampdLogoText{
-    visibility: hidden;
-        height:0px;
-        margin-bottom:-15px;
+    #sideCircle {
+        visibility: hidden;
+    }
+    #messages {
+        visibility: hidden;
+    }
+    #ampdLogoText {
+        visibility: hidden;
+        height: 0px;
+        margin-bottom: -15px;
+    }
+    #orLine {
+        visibility: hidden;
+        margin-bottom:-627px;
     }
 }
-
 /* Landscape phones and smaller */
+
 @media (max-width: 480px) {
-#sideCircle{
-visibility: hidden;
-}
-     #messages{
-visibility: hidden;
-}
-    #ampdLogoText{
-    visibility: hidden;
-        height:0px;
-        margin-bottom:-15px;
-        
+    #sideCircle {
+        visibility: hidden;
+    }
+    #messages {
+        visibility: hidden;
+    }
+    #ampdLogoText {
+        visibility: hidden;
+        height: 0px;
+        margin-bottom: -15px;
+    }
+    #orLine {
+        visibility: hidden;
+        margin-bottom:-627px;
     }
 }
-
-
-
 #pageCount {
     border: none;
     background: none;
@@ -401,15 +390,13 @@ visibility: hidden;
     font-weight: 100;
     font-size: 20px;
     color: white;
-    margin-left:30%;
+    margin-left: 30%;
 }
-
 #saveQuit {
     background-color: red;
 }
-
-#centerScreen{
-   display: inline-block;
+#centerScreen {
+    display: inline-block;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -418,95 +405,88 @@ visibility: hidden;
     width: 600px;
     height: 100px;
     margin: auto;
-    margin-top:200px;
+    margin-top: 200px;
 }
-
 .textCenter {
     text-align: center;
 }
-
-
-
 .statusComplete {
     color: #4bd21c;
 }
-
 .fa-circle-thin {
     color: #4bd21c;
 }
-
-#filedrag
-{
-	display: none;
-	font-weight: bold;
-	text-align: center;
-    height:45%;
-	padding: 1em 0;
-    margin-left:30px;
-	margin-top:-20px;
-    margin-bottom:10px;
+#filedrag {
+    display: none;
+    font-weight: bold;
+    text-align: center;
+    height: 45%;
+    padding: 1em 0;
+    margin-left: 30px;
+    margin-top: -20px;
+    margin-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 20px;
-	color: #fff;
-	border: 2px dashed #fff;
-	border-radius: 7px;
-	cursor: copy;
+    color: #fff;
+    border: 2px dashed #fff;
+    border-radius: 7px;
+    cursor: copy;
 }
-
-#filedrag.hover
-{
-	color: #fff;
-	border-color: #f00;
-	border-style: dashed;
-	
+#filedrag.hover {
+    color: #fff;
+    border-color: #f00;
+    border-style: dashed;
 }
-
 #messages {
-    color:#fff;
+    color: #fff;
 }
-
-.fileBorder{
+.fileBorder {
     border: 1px solid #fff;
-    background:#999;
+    background: #999;
 }
-
-.positionClass{
+.positionClass {
     z-index: 999;
- position:absolute;
-    width:100%;
-    
+    position: absolute;
+    width: 100%;
 }
-
-.fileText{
+.fileText {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     font-size: 15px;
     color: #898989;
 }
-
-
 #ampdLogo {
     margin-left: 20px;
-    margin-top:-5px;
+    margin-top: -5px;
     font-family: 'Archivo Narrow', sans-serif;
     font-weight: 700;
     font-size: 50px;
     color: #db0000;
 }
-
 #ampdLogoText {
-   
-    margin-left:10px;
-    width:300px;
+    margin-left: 10px;
+    width: 300px;
     line-height: 1em;
-    margin-top:10px;
+    margin-top: 10px;
     font-family: 'Archivo Narrow', sans-serif;
     font-weight: 700;
     font-size: 20px;
     color: white;
 }
-
-
+#orLine {
+    z-index: -999;
+    position: relative;
+    top: 0;
+    margin-top: -200px;
+    left: 50%;
+    width: 49px;
+    height: 627px;
+    background: url("http://i.imgur.com/LrtpX05.png") no-repeat bottom center scroll;
+    background-size: 49px 627px;
+}
+.topSpace {
+    margin-top: 20px;
+}
 
 
