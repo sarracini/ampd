@@ -62,6 +62,9 @@ body {
     -o-background-size: cover;
     background-size: cover;
     min-height: 100%;
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 h1 {
     font-family: 'Roboto', sans-serif;
@@ -454,7 +457,7 @@ li {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     font-size: 15px;
-    color: #898989;
+    color: #000;
 }
 #ampdLogo {
     margin-left: 20px;
@@ -490,3 +493,8 @@ li {
 }
 
 
+
+#deletePadding {
+    position: absolute;
+    
+}

@@ -53,15 +53,11 @@
 	function ParseFile(file, x) {
 
 		Output(
-            "<div class='filewell filewell-sm'>" + "<div class='fileText'><i class='fa fa-lg fa-check-circle-o'></i>" +  " <b>File " + x + " : <i class='fa fa-spinner fa-spin'></i> </b>" + "<a style='color:black' href='http://placehold.it/750x550' data-lightbox='image-1' data-title='This is a caption which the student can upload'>" + file.name +
-            "</a><button onclick='alert()' style='float:right; border:none; background:none;'><i class='fa fa-times' style='color: #ce301b; margin-right:5px;'></i></button></div> </div>" 
-			
-			
+            "<div style='margin-right:10px; margin-bottom:10px;' class='col-md-2 filewell filewell-sm'><div id='deletePadding'><button onclick='alert('Are you sure you want to delete this item?')' style='border:none; background:none;'><i class='fa fa-times fa-lg' style='color: #ce301b;'></i></button></div></button><a style='color:black' href='http://placehold.it/750x550' data-lightbox='image-1' data-title='This is a caption which the student can upload'><img style='width:100%' src='http://placehold.it/100x100'></a><div class='fileText'> File " + x + "<button data-toggle='modal' data-target='#TextModal' style='float:right; border:none; background:none;'><i class='fa fa-pencil-square-o fa-lg' style='color: #ce301b;'></i></div></div>" 
 		);
 
 	}
 
-    
 	// initialize
 	function Init() {
 

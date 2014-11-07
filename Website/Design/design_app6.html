@@ -28,7 +28,7 @@
 </head>
 
 <body>
-<!-- NAV BAR-->
+    <!-- NAV BAR-->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -39,42 +39,42 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-              
+
                 <div class="navbar-brand" id="ampdLogo">AMPD</div>
-                    <div class="navbar-brand" id="ampdLogoText">School of the Arts, Media, Performance & Design</div>
-                
-                </div>
+                <div class="navbar-brand" id="ampdLogoText">School of the Arts, Media, Performance & Design</div>
+
             </div>
+        </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="ampdMenu">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="ampdMenu">
 
-                <ul class="nav navbar-nav navbar-right">
-                    <li> <a data-toggle="modal" data-target=".SaveandQuit" style="color:white">
+            <ul class="nav navbar-nav navbar-right">
+                <li> <a data-toggle="modal" data-target=".SaveandQuit" style="color:white">
                 Home <i class="fa fa-home"></i>
                
             </a>
-                    </li>
-                    <li> <a data-toggle="modal" data-target="#myModal" data-original-title="Click for help & tips" class="menu" style="color:white">
+                </li>
+                <li> <a data-toggle="modal" data-target="#myModal" data-original-title="Click for help & tips" class="menu" style="color:white">
                 Help <i class="fa fa-question-circle"></i>
                
             </a>
-                    </li>
-                    <li> <a href="../index.html" data-original-title="Log out and save" style="color:white">
+                </li>
+                <li> <a href="../index.html" data-original-title="Log out and save" style="color:white">
                 Logout <i class="fa fa-power-off"></i>
                 
             </a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
 
     <!--/.navbar-->
     <!-- Page Content removed offset -->
-    
+
     <!--Save and Quit Modal-->
     <div class="modal fade SaveandQuit" tabindex="-1" role="dialog" aria-labelledby="Save and Quit" aria-hidden="true">
         <div class="modal-dialog modal-lg">
@@ -129,6 +129,31 @@
     </div>
 
     <!--Popup-->
+    
+     <!--Textbox Popup-->
+    <div class="modal fade" id="TextModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">Description</h4>
+                </div>
+                <div class="modal-body">
+                    <h4>Write a short description about this item.</h4>
+                    
+                  <textarea style="resize:none" name="" value="" class="form-control" rows="3"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Save</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Textbox Popup-->
+
 
     <div id="sideBar"></div>
     <div class="container">
@@ -158,13 +183,15 @@
                     <div class="questions">
                         <p>Please upload 5 images that demonstrate your ability to create creative works of art using either water colours or oils on canvas.</p>
                         <p>Please ensure that each file is less than 2MB and is of type (.gif, .jpg, .png, .bmp)</p>
-                    <p>Please give a brief description of the important qualities highlighted in the images you've uploaded.</p>
-                    <textarea style="resize:none" class="form-control" rows="3"></textarea></div>
+                        <p>Please give a brief description of the important qualities highlighted in the images you've uploaded.</p>
+                        <textarea style="resize:none" class="form-control" rows="3"></textarea>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6 col-sm-12 col-md-offset-1">
                 <div class="row">
-                    <h3>1. Choose Your Files</h3><hr>
+                    <h3>1. Choose Your Files</h3>
+                    <hr>
 
                     <form type="hidden" id="upload" action="upload.php" method="POST" enctype="multipart/form-data">
                         <fieldset>
@@ -173,7 +200,7 @@
                             <div>
 
                                 <input style="visibility:hidden" id="fileselect" name="fileselect[]" multiple="multiple" />
-                                <div id="filedrag"><i class="fa fa-cloud-upload"></i></i> Drag Your Files Here</div>
+                                <div id="filedrag"><i class="fa fa-cloud-upload"></i></i>Drag Your Files Here</div>
 
                             </div>
                         </fieldset>
@@ -183,8 +210,9 @@
 
                     <h3>2. View Your Files</h3>
                     <hr>
-
-                    <div id="messages" class="positionClass">
+                    <div class="col-md-12 col-sm-12">
+                        <div id="messages" class="positionClass">
+                        </div>
                     </div>
                 </div>
             </div>
