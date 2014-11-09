@@ -5,29 +5,32 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>AMPD Supplimentary Application | Design</title>
+
+
+    <title>AMPD Supplimentary Application | Review</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="../css/ampdStyle.css" rel="stylesheet">
-    <link href="../css/lightbox.css" rel="stylesheet" />
 
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Archivo+Narrow:400,700' rel='stylesheet' type='text/css'>
+
 
 
 </head>
 
 <body>
+    <!-- Page Content -->
+
     <!-- NAV BAR-->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
@@ -101,7 +104,6 @@
         </div>
     </div>
     <!--Save and Quit Modal-->
-
     <!--Popup-->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -129,175 +131,125 @@
     </div>
 
     <!--Popup-->
-    
-     <!--Textbox Popup-->
-    <div class="modal fade" id="TextModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-                    </button>
-                    <h4 class="modal-title" id="myModalLabel">Description</h4>
-                </div>
-                <div class="modal-body">
-                    <h4>Write a short description about this item.</h4>
-                    
-                  <textarea style="resize:none" name="" value="" class="form-control" rows="3"></textarea>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-success" data-dismiss="modal">Save</button>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--Textbox Popup-->
 
 
     <div id="sideBar"></div>
+
     <div class="container">
-
-        <!--Headings-->
-        <div class="col-md-12 col-sm-12">
-            <div class="row">
-                <div class="col-md-7 col-sm-12">
-                    <div class="suppHeading">
-                        Supplementary Evaluation
-                    </div>
-                    <div class="programName">
-                        Bachelor of Design
-                        <br/>Honours
-                    </div>
-                </div>
-
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1>Evaluation Review</h1>
+                <p class="subtext">Please review your answers as this is what will be submitted to us for review.</p>
             </div>
-        </div>
-        <!--/Headings-->
 
-        <div class="col-md-12 col-sm-12">
-            <div class="col-md-5 col-sm-12">
-                <div class="row">
-                    <h3>Upload Your Work </h3>
-                    <hr>
-                    <div class="questions">
-                        <p>Please upload 5 images that demonstrate your ability to create creative works of art using either water colours or oils on canvas.</p>
-                        <p>Please ensure that each file is less than 2MB and is of type (.gif, .jpg, .png, .bmp)</p>
-                        <p>Please give a brief description of the important qualities highlighted in the images you've uploaded.</p>
-                        <textarea style="resize:none" class="form-control" rows="3"></textarea>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12 col-md-offset-1">
-                <div class="row">
-                    <h3>1. Choose Your Files</h3>
-                    <hr>
+            <div class="col-md-12 col-sm-12">
+                
+                    <!--Booking-->
 
-                    <form type="hidden" id="upload" action="upload.php" method="POST" enctype="multipart/form-data">
-                        <fieldset>
-                            <input type="hidden" id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="300000" />
-
-                            <div>
-
-                                <input style="visibility:hidden" id="fileselect" name="fileselect[]" multiple="multiple" />
-                                <div id="filedrag"><i class="fa fa-cloud-upload"></i></i> Drag Your Files Here</div>
-
-                            </div>
-                        </fieldset>
-                    </form>
-                </div>
-                <div class="row">
-
-                    <h3>2. View Your Files</h3>
-                    <hr>
                     <div class="col-md-12 col-sm-12">
-                        <div id="messages" class="positionClass">
+                        <div class="col-md-10 col-md-offset-1 col-sm-12">
+                            <p class="white">
+                                <b>Name</b>
+                                </br>
+                                First Last</p>
+                            <hr>
+                            <p class="white">
+                                <b>Your Student Number (if known)</b>
+                                </br>
+                                294837763</p>
+                            <hr>
+                            <p class="white">
+                                <b>Are you currently attending highschool?</b>
+                                </br>
+                                Yes</p>
+                            <hr>
+                            <p class="white">
+                                <b>If Yes, please tell us it's name:</b>
+                                </br>
+                                Mount High School</p>
+                            <hr>
+                            <p class="white">
+                                <b>Address</b>
+                                </br>
+                                1234 Address Road</p>
+                            <hr>
+                            <p class="white">
+                                <b>Is this an Ontario High School?</b>
+                                </br>
+                                Yes</p>
+                            <hr>
+                            <p class="white">
+                                <b>Are you currently attending, or have you previously attended, any other post-secondary institution? </b>
+                                </br>
+                                No</p>
+                            <hr>
+<p class="white">
+                                <b>Why Design? Please review the information on the YSDN Program in Design at www.design.yorku.ca and tell us why you wish to study design with us.(150 words max. Use point form) </b>
+                                </br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elit tortor, scelerisque quis vehicula a, suscipit vitae elit. Curabitur gravida nisi ut augue placerat gravida. Donec ac ligula dapibus, rutrum nibh quis, iaculis erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus nisl posuere leo gravida, quis mattis arcu rutrum. Vestibulum nunc arcu, mattis at ex et, porttitor tempus mauris. Aenean accumsan pretium ligula, sed blandit enim volutpat porttitor.</p>
+                            <hr>
+
+ <p class="white"><b>List up to three extracurricular activities that you have pursued at the school, community or provincial level. (150 </b>
+                                </br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elit tortor, scelerisque quis vehicula a, suscipit vitae elit. Curabitur gravida nisi ut augue placerat gravida. Donec ac ligula dapibus, rutrum nibh quis, iaculis erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus nisl posuere leo gravida, quis mattis arcu rutrum. Vestibulum nunc arcu, mattis at ex et, porttitor tempus mauris. Aenean accumsan pretium ligula, sed blandit enim volutpat porttitor.</p>
+                            <hr>
+ <p class="white"><b>Please tell us what plays you've seen.</b>
+                                
+<ul class="white"><br/>
+<li>This</li><br/>
+    <li>That</li><br/>
+    <li>Oh and this</li><br/>
+    
+
+
+</ul>                               
+
+</p>
+
+                            <hr>
+
+<p class="white">
+                                <b>Please upload 5 files</b>
+                                </br>
+                                <center><img style='width:100px;' src='http://placehold.it/100x100'>
+<img style='width:100px' src='http://placehold.it/100x100'>
+<img style='width:100px' src='http://placehold.it/100x100'>
+<img style='width:100px' src='http://placehold.it/100x100'>
+<img style='width:100px' src='http://placehold.it/100x100'></center>
+
+
+</p>
+                            <hr>
+   <div class="checkbox">
+                    <label class="white col-md-12">
+                        <input type="checkbox">I acknowledge that once I submit my evaluation I will not be able to edit and re-submit.
+                    </label>
+                </div>
+                <a id="continueButton" href="design_submit.html" class="btn btn-default" role="button">Submit and Pay <i class="fa fa-angle-right"></i></a>
+                <a id="continueButton" href="design_print.html" class="btn btn-default" role="button">Generate Printable Version <i class="fa fa-angle-right"></i></a>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <!--Save/Next/Prev-->
-        <div class="row">
-            <div class="col-md-7 col-sm-12">
-                <div class="col-xs-4 col-sm-4 col-md-3">
-                    <a id="prevButton" href="design_app5.html"> <i class="fa fa-angle-left"></i> Prev</a>
-                </div>
 
-                <div class=" col-xs-4 col-sm-4 col-md-2 col-md-offset-1 ">
-                    <button type="button" class="savebutton" data-original-title="Don't forget to save your work!">Save</button>
-                </div>
 
-                <div class="col-xs-4 col-sm-4 col-md-3 col-md-offset-1 ">
-                    <a id="nextButton" href="design_final.html">Next <i class="fa fa-angle-right"></i></a>
-                </div>
-            </div>
-        </div>
-        <!--End of Save/Next/Prev-->
-        <!--Page Count-->
-        <div class="row">
-            <div class="col-md-7 col-sm-7">
-                <div class="col-xs-4 col-xs-offset-3 col-sm-4 col-sm-offset-6 col-md-2 col-md-offset-4">
-                    <div id="pageCount">
-                        6/6
 
-                    </div>
-                </div>
+
+                    <!--End of booking-->
+
+            
+              
+             
             </div>
+            
+          
+
         </div>
     </div>
-
-    <!--/Page Count-->
-    <!-- /.row -->
-
-
-
-    <!-- /.container -->
 
     <!-- jQuery Version 1.11.0 -->
     <script src="../js/jquery-1.11.0.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/lightbox.min.js"></script>
-
-    <!--File Chooser-->
-    <script type="text/javascript" src="../js/bootstrap-filestyle.js">
-    </script>
-
-    <!-- Filedrag -->
-    <script type="text/javascript" src="../js/filedrag.js">
-    </script>
-
-    <script>
-        var toggleVis = function (element) {
-            if (element.style.visibility = 'hidden') {
-                element.style.visibility = 'visible';
-            }
-
-            var str = $(":file").filestyle('buttonText');
-            var res = str.replace(str, "Replace File");
-            console.log(str);
-
-
-
-            $(":file").filestyle('buttonText', " Replace File");
-
-        };
-    </script>
-    <script>
-        $(document).ready(function () {
-            $(".savebutton").tooltip({
-                placement: 'top'
-            });
-        });
-
-        $(document).ready(function () {
-            $(".menu").tooltip({
-                placement: 'bottom'
-            });
-        });
-    </script>
 
 </body>
 
