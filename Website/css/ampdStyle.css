@@ -498,3 +498,7 @@ li {
     position: absolute;
     
 }
+
+.disabledClass{
+ opacity: 0.4;   
+}

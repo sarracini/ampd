@@ -155,7 +155,7 @@
 
                 <div class="panel panel-red topSpace">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Book an On Campus Interview <i class="fa fa-book"></i></h3> 
+                        <h3 class="panel-title">Option 1: On Campus Interview <i class="fa fa-book"></i></h3> 
                     </div>
                     <div class="panel-body">
                         <p class="black">
@@ -164,19 +164,19 @@
                         </p>
                         <h4>1. Pick a Date & Time</h4>
                         <div class="row">
-                        <div class="col-md-5 col-sm-5">
+                            <div class="col-md-5 col-sm-5">
 
-                            <select class="dropdown form-control">
-                                <option>Monday Sept 12 @ 10:00am</option>
-                                <option>Tuesday Sept 12 @ 10:00am</option>
-                                <option>Wednesday Sept 12 @ 10:00am</option>
-                                <option>Thursday Sept 12 @ 10:00am</option>
-                                <option>Friday Sept 12 @ 10:00am</option>
-                            </select>
-                            
-                        </div>
+                                <select class="dropdown form-control">
+                                    <option>Monday Sept 12 @ 10:00am</option>
+                                    <option>Tuesday Sept 12 @ 10:00am</option>
+                                    <option>Wednesday Sept 12 @ 10:00am</option>
+                                    <option>Thursday Sept 12 @ 10:00am</option>
+                                    <option>Friday Sept 12 @ 10:00am</option>
+                                </select>
+
                             </div>
-                        
+                        </div>
+
                         <h4>2. Book Your Appointment</h4>
                         <a href="design_interview2.html" class="btn btn-block btn-lg btn-danger">Book Appointment <span class="glyphicon glyphicon-ok"></span></a>
                     </div>
@@ -187,15 +187,16 @@
             <!--Middle Row -->
             <div class="col-md-1 col-sm-12">
                 <div id="orLine"></div>
+                <a href="#"  id="toggleButt" class="btn btn-success" onclick="">Toggle Disabled</a>
             </div>
-            <!--Middle Row-->
+            <!--/Middle Row-->
             <div class="col-md-5 col-md-offset-1 col-sm-12">
 
-                 <!--Online Eval-->
-
-                <div class="panel panel-red topSpace ">
+                <!--Online Eval-->
+                
+                <div id="leftSide" class="panel panel-red topSpace">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Online Evaluation <i class="fa fa-upload"></i></h3> 
+                        <h3 class="panel-title">Option 2: Online Evaluation <i class="fa fa-upload"></i></h3> 
                     </div>
                     <div class="panel-body">
                         <p class="black">
@@ -203,13 +204,13 @@
 
                         </p>
                         <h4>1. Why do you wish to be evaluated online?</h4>
-                        
+
                         <textarea style="resize:none" name="" value="" class="form-control" rows="4"></textarea>
                         <h4>2. Start your online evaluation</h4>
                         <a href="design_online_eval.html" class="btn btn-block btn-lg btn-danger">Begin Evaluation <span class="glyphicon glyphicon-chevron-right"></span></a>
                     </div>
                 </div>
-
+                    
                 <!--/Online Eval-->
             </div>
 
@@ -242,6 +243,17 @@
             $(".menu").tooltip({
                 placement: 'bottom'
             });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            document.getElementById("toggleButt").onclick = function toggleTrans() {
+        
+       var element = document.getElementById(leftSide);
+                element.toggleClass("disabledClass");
+    }
+           
         });
     </script>
 

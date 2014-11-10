@@ -192,7 +192,9 @@
                 <div class="row">
                     <h3>1. Choose Your Files</h3>
                     <hr>
-
+<form action="/file-upload"
+      class="dropzone"
+      id="my-awesome-dropzone"></form>
                     <form type="hidden" id="upload" action="upload.php" method="POST" enctype="multipart/form-data">
                         <fieldset>
                             <input type="hidden" id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="300000" />
@@ -200,7 +202,7 @@
                             <div>
 
                                 <input style="visibility:hidden" id="fileselect" name="fileselect[]" multiple="multiple" />
-                                <div id="filedrag"><i class="fa fa-cloud-upload"></i></i> Drag Your Files Here</div>
+                                <div id="filedrag"><i class="fa fa-cloud-upload"></i> Drag Your Files Here</div>
 
                             </div>
                         </fieldset>
@@ -267,6 +269,10 @@
 
     <!-- Filedrag -->
     <script type="text/javascript" src="../js/filedrag.js">
+    </script>
+    
+    <!-- Dropzone -->
+    <script type="text/javascript" src="../js/dropzone.js">
     </script>
 
     <script>
