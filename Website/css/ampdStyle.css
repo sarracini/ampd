@@ -502,3 +502,8 @@ li {
 .disabledClass{
  opacity: 0.4;   
 }
+
+.enabledClass{
+ opacity: 1;   
+}
+

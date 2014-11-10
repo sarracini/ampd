@@ -193,8 +193,8 @@
             <div class="col-md-5 col-md-offset-1 col-sm-12">
 
                 <!--Online Eval-->
-                
-                <div id="leftSide" class="panel panel-red topSpace">
+                <div id="leftSide" class="disabledClass">
+                <div  class="panel panel-red topSpace">
                     <div class="panel-heading">
                         <h3 class="panel-title">Option 2: Online Evaluation <i class="fa fa-upload"></i></h3> 
                     </div>
@@ -210,6 +210,7 @@
                         <a href="design_online_eval.html" class="btn btn-block btn-lg btn-danger">Begin Evaluation <span class="glyphicon glyphicon-chevron-right"></span></a>
                     </div>
                 </div>
+                    </div>
                     
                 <!--/Online Eval-->
             </div>
@@ -249,9 +250,8 @@
     <script>
         $(document).ready(function () {
             document.getElementById("toggleButt").onclick = function toggleTrans() {
-        
-       var element = document.getElementById(leftSide);
-                element.toggleClass("disabledClass");
+       
+    $(leftSide).toggleClass("disabledClass enabledClass");
     }
            
         });
