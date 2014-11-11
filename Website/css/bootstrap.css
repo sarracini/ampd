@@ -153,6 +153,9 @@ input[type="radio"] {
     box-sizing: border-box;
     padding: 0;
 }
+input[type="file"] {
+    color:white;
+}
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
     height: auto;
@@ -375,6 +378,7 @@ th {
     content: "\e026";
 }
 .glyphicon-upload:before {
+    content: "\e027";
     content: "\e027";
 }
 .glyphicon-inbox:before {
@@ -3236,7 +3240,7 @@ tbody.collapse.in {
     font-size: 14px;
     text-align: left;
     list-style: none;
-    background-color: #000;
+    background-color: white;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid #ccc;
@@ -3245,6 +3249,7 @@ tbody.collapse.in {
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
+
 .dropdown-menu.pull-right {
     right: 0;
     left: auto;
