@@ -155,7 +155,7 @@
 
                 <div class="panel panel-red topSpace">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Book an On Campus Interview <i class="fa fa-book"></i></h3> 
+                        <h3 class="panel-title">Option 1: On Campus Interview <i class="fa fa-book"></i></h3> 
                     </div>
                     <div class="panel-body">
                         <p class="black">
@@ -163,6 +163,7 @@
 
                         </p>
                         <h4>1. Pick a Date & Time</h4>
+
                     <div class="row">
                         <div class="col-md-5 col-sm-5">
                             <select class="dropdown form-control">
@@ -185,15 +186,25 @@
             <!--Middle Row -->
             <div class="col-md-1 col-sm-12">
                 <div id="orLine"></div>
+                <a href="#"  id="toggleButt" class="btn btn-success" onclick="">Toggle Disabled</a>
             </div>
+<<<<<<< HEAD
             <!--Middle Row-->
            
 
         <!--Online Eval-->
             <div class="col-md-5 col-md-offset-1 col-sm-12">
                 <div class="panel panel-red topSpace ">
+=======
+            <!--/Middle Row-->
+            <div class="col-md-5 col-md-offset-1 col-sm-12">
+
+                <!--Online Eval-->
+                <div id="leftSide" class="disabledClass">
+                <div  class="panel panel-red topSpace">
+>>>>>>> upstream/master
                     <div class="panel-heading">
-                        <h3 class="panel-title">Online Evaluation <i class="fa fa-upload"></i></h3> 
+                        <h3 class="panel-title">Option 2: Online Evaluation <i class="fa fa-upload"></i></h3> 
                     </div>
                     <div class="panel-body">
                         <p class="black">
@@ -201,14 +212,25 @@
 
                         </p>
                         <h4>1. Why do you wish to be evaluated online?</h4>
-                        
+
                         <textarea style="resize:none" name="" value="" class="form-control" rows="4"></textarea>
                         <h4>2. Start your online evaluation</h4>
                         <a href="design_online_eval.html" class="btn btn-block btn-lg btn-danger">Begin Evaluation <span class="glyphicon glyphicon-chevron-right"></span></a>
                     </div>
                 </div>
+<<<<<<< HEAD
             </div>     
         <!--/Online Eval-->              
+=======
+                    </div>
+                    
+                <!--/Online Eval-->
+            </div>
+
+
+
+        </div>
+>>>>>>> upstream/master
     </div>
     <!--End of booking-->
     </div>
@@ -240,6 +262,16 @@
     	    document.getElementById("eval").style.opacity=0.2;
         }
         </scipt>
+
+    <script>
+        $(document).ready(function () {
+            document.getElementById("toggleButt").onclick = function toggleTrans() {
+       
+    $(leftSide).toggleClass("disabledClass enabledClass");
+    }
+           
+        });
+    </script>
 
 
 </body>
